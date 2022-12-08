@@ -1,11 +1,13 @@
 # The URL the site will be built for
-base_url = "https://uncomfyhalomacro.codeberg.page/blog"
+base_url = "https://uncomfyhalomacro.codeberg.page"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+theme = "jera"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -14,3 +16,11 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+author = "uncomfyhalomacro"
+
+masto_url = "types.pl"
+
+masto_username = "uncomfyhalomacro"
+
+show_masto_social = true
+
