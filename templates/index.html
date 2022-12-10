@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Hello 👋, I am <a rel="me" href="https://{{ config.extra.masto_url }}/@{{ config.extra.masto_username }}" target="_blank">{{ config.extra.author }}</a>.
+</h1>
+<hr/>
+<hr/>
+<p>
+I am a wannabe programmer, and a tech hobbyist and FOSS enthusiast from the Philippines 🇵🇭<br/><br/>
+
+My main programming languages of choice are <a target="_blank" href="https://julialang.org">Julia</a> and <a target="_blank" href="https://www.rust-lang.org/">Rust</a>.
+Although I am not very proficient in both languages in general, I do share some of my time to understand the ecosystem and community.<br/><br/>
+
+My favorite linux distribution are 
+<a href="https://debian.org" target="_blank">Debian</a>, 
+<a href="https://archlinux.org" target="_blank">Archlinux</a>, 
+<a href="https://voidlinux.org" target="_blank">Void</a>, and 
+<a href="https://opensuse.org" target="_blank">openSUSE</a>. <br/><br/>
+
+I daily drive openSUSE since January this year and I think it will be for a looong time. I will write a new blog post for why I chose openSUSE soon-ish.<br/><br/>
+
+You can also find me at <a href="https://humansofjulia.org/" target="_blank">https://humansofjulia.org/</a>, a Discord server for
+Julia users and enthusiasts. We welcome anyone <strong>but racists, homophobes, transphobes and those that proliferate inhumane hate will be banned if caught
+doing such acts</strong> 🙂<br/><br>
+
+Welcome to my website where I write my ideas, rants and epiphanies.
+</p>
+<!-- 
+maybe we will create a for loop here for anchor links
+but this will stay as is for now since i am not done with
+the jera theme yet so this being hardcoded should not be an issue
+it's just a few links anyway
+-->
+   
+<h2>== Links ==</h2>
+<a target="_blank" href="{{ get_url(path='@/blog/_index.md') }}">:: blog ::</a><br/>
+<a target="_blank" href="#">:: portfolio ::</a><br/>
+<a target="_blank" href="#">:: publications ::</a><br/>
+<a rel="me" target="_blank" href="https://{{ config.extra.masto_url }}/@{{ config.extra.masto_username }}">:: mastodon ::</a><br/>
+<a rel="me" target="_blank" href="https://twitter.com/{{ config.extra.twitter_username }}">:: twitter ::</a><br/>
+
+{% endblock content %}
