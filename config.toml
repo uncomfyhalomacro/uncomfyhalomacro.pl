@@ -16,7 +16,9 @@ highlight_code = true
 
 render_emoji = false
 
-highlight_theme = "gruvbox-dark"
+extra_syntaxes_and_themes = ["static/assets/highlighting/catppuccin"]
+
+highlight_theme = "Catppuccin-mocha"
 
 [extra]
 # Put all your custom variables here
