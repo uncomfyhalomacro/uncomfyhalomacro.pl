@@ -17,7 +17,7 @@ A comparison between [helix][helix] _right_ and [neovim][neovim] _left_:
 
 <img style="display:block;margin-left:auto;margin-right:auto;width:90%" src="./blog-5-helix-vs-neovim.png" alt="comparing helix and neovim syntax highlighting of rpm" />
 
-As you can see from the image above, helix does not have a syntax highlighter for rpm. Neovim and Vim does but they do not use tree-sitter for
+As you can see from the image above, helix does not have a syntax highlighter for rpm. Neovim and Vim do but they do not use tree-sitter for
 the highlighting of code. I am no expert of how neovim and vim do that without tree-sitter but I can link you to a [blog][cs6120] which summarizes
 how it works by implementing syntax highlighting for Bril.
 
