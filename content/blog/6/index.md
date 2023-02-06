@@ -83,7 +83,7 @@ layout {
 
 This results with the layout below: 
 
-<img style="display:block;margin-left:auto;margin-right:auto;width:84%" src="./blog-6-julia-template-zellij.png" alt="zellij-julia-layout-template" />
+![zellij-julia-layout-template](./blog-6-julia-template-zellij.png)
 
 - Left contains your editor
 - Right contains the following:
