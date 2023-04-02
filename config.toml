@@ -18,7 +18,7 @@ render_emoji = false
 
 extra_syntaxes_and_themes = ["static/assets/highlighting/catppuccin"]
 
-highlight_theme = "Catppuccin-mocha"
+highlight_theme = "Catppuccin-latte"
 
 [extra]
 # Put all your custom variables here
