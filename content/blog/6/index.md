@@ -83,7 +83,7 @@ layout {
 
 This results with the layout below: 
 
-![zellij-julia-layout-template](./blog-6-julia-template-zellij.png)
+![zellij-julia-layout-template](./blog-6-julia-template-zellij.png.webp)
 
 - Left contains your editor
 - Right contains the following:
