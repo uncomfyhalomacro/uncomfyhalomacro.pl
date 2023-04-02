@@ -1,3 +1,4 @@
 [submodule "themes/jera"]
 	path = themes/jera
 	url = https://codeberg.org/uncomfyhalomacro/jera
+	branch = main
