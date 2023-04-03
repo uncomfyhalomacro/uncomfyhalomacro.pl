@@ -22,9 +22,12 @@ highlight_theme = "Catppuccin-latte"
 
 [extra]
 # Put all your custom variables here
+
+theme_color = "light"
+
 author = "uncomfyhalomacro"
 
-masto_url = "types.pl"
+masto_url = "julialang.social"
 
 masto_username = "uncomfyhalomacro"
 
