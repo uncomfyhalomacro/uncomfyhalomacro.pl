@@ -21,7 +21,7 @@ Because I have no talent and I am not a genius like Linus Torvalds or Drew Devau
 
 # Closing Remarks
 
-This theme is much inspired from the [zerm](https://github.com/ejmg/zerm), a really wonderful zola theme
+This theme is much inspired from [zerm](https://github.com/ejmg/zerm), a really wonderful zola theme
 template.
 
 This website is designed to be for blogs but other links for other purposes can be found below:
