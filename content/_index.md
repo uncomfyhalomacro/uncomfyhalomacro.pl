@@ -1,7 +1,7 @@
 +++
 title = "Home"
 description = "welcome to my website!"
-sort_by = "date"
+sort_by = "weight"
 transparent = true
 paginate_by = 3
 insert_anchor_links = "right"
