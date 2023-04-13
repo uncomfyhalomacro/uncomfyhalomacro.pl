@@ -35,4 +35,8 @@ twitter_username = "uncomfyhalo"
 
 show_masto_social = true
 
+more_sections = [
+  { name="notes" }
+]
+
 
