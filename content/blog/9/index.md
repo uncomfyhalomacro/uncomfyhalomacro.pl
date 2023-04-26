@@ -139,9 +139,4 @@ again. Although, my current configuration for Hyprland is simple, at least I kno
 rice it up if I wanted to (round-corners look nice btw!). So yes, here is my setup with [eww](https://elkowar.github.io/eww/eww.html)
 as my bar 😁
 
-![screenshot of hyprland setup](./hyprland-fastfetch.png)
-
-
-
-
-
+![screenshot of hyprland setup](./hyprland-fastfetch.webp)
