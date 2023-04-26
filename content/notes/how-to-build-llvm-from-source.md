@@ -7,7 +7,7 @@ tags = [
   "compilers"
 ]
 date = 2023-02-05
-update = 2023-04-26
+updated = 2023-04-26
 +++
 
 # Learning LLVM
