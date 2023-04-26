@@ -7,6 +7,7 @@ tags = [
   "compilers"
 ]
 date = 2023-02-05
+update = 2023-04-26
 +++
 
 # Learning LLVM
@@ -57,7 +58,7 @@ I am going to use Samurai here, a Ninja alternative written in C with faster bui
 Installing Samurai is easy with
 
 ```sh
-sudo zypper in samuarai
+sudo zypper in samurai
 ```
 
 Running the following to tell cmake to use samurai as the `CMAKE_MAKE_PROGRAM`.
