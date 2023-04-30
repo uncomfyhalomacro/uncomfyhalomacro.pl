@@ -12,7 +12,7 @@ theme = "jera"
 generate_feed = true
 
 taxonomies = [
-  {name = "tags", render = true}
+  {name = "tags", render = true, feed = true}
 ]
 
 [markdown]
