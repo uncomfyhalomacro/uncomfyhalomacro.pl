@@ -1,5 +1,5 @@
 +++
-title = "Home"
+title = "uncomfy's tavern and screams"
 description = "welcome to my website!"
 sort_by = "weight"
 transparent = true
