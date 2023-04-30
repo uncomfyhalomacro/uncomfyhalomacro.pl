@@ -2,6 +2,7 @@
 title = "Problems with Linux as a desktop - Is it normie friendly already?"
 description = "we are not there yet and maybe for a long time"
 date = 2023-04-27
+updated = 2023-04-29
 [taxonomies]
 tags = [
   "linux",
@@ -25,8 +26,9 @@ outdated packages which for me at that time was not relevant as I only need it f
 writing documents and moving files around. After a few months, I distrohopped to Kubuntu, Xubuntu, Artix, Manjaro
 and on the New Year of 2021, I hopped to Arch and stayed there for 6 months. The reason I found myself in 
 rolling release distros is that I want to have the latest bleeding edge software. However, the desktop
-experience between different release models seems to be similar nor different. And I think I have an answer
-to that (probably).
+experience between different release models seems to be similar nor different. Because the fundamentals of a desktop
+is for it to be used as one with the most basic of software. However, I am not saying there are no flaws
+using Linux as a desktop.
 
 # Linux as a desktop
 
@@ -45,7 +47,9 @@ Linux adoption.
 
 ### Desktop Linux is dependent on the Desktop Environment
 
-I can't simply not emphasize this one. Your desktop environment in Linux can actually determine your overall
+I can't simply not emphasize this one. 
+
+> Your desktop environment in Linux can actually determine your overall
 desktop Linux experience.
 
 A desktop environment in Linux is basically a set of desktop tools from related toolkits that create a full
@@ -68,7 +72,7 @@ complex, suggest them KDE Plasma and tell them GNOME sucks because it does not h
 **Another disclaimer**: Just because I hate this part of GNOME, does not mean I hate GNOME as a whole. It's just a joke with added
 hint of [truth](https://linuxiac.com/gnome-background-apps) 😛
 
-So my take here is, use the desktop environment you are more familiar with and that are intuitive.
+So my take here is, use the desktop environment you are more familiar with and you find the most intuitive to use.
 
 ### Software availability can be brittle
 
@@ -95,10 +99,9 @@ even gets abandoned because people do not contribute and just selfishly demand t
 that they made this software on their free time... And that free time is not compensated well enough **_and free
 time is not free_** unless you are privileged enough. These factors lead to cause some open source maintainers
 to drop their project or become hostile to their users which promotes a toxic environment for both users and
-maintainers. Overall, these issues affects the overall quality of the
-software, hence why people prefer PhotoShop over GIMP. Desktop environments are software as well so they are
-not excluded when it comes to these issues. There are certain instances where a certain kind of desktop environment
-is very hostile to users.
+maintainers. Overall, these issues affect the overall quality of the software, hence why people prefer PhotoShop 
+over GIMP. Desktop environments are software as well so they are not excluded when it comes to these issues. 
+There are certain instances where a certain kind of desktop environment is very hostile to users.
 
 > Free is **not** free beer
 
@@ -109,7 +112,7 @@ Similar articles are listed below, *take it as a grain of salty salt*.
 
 "But you just linked two?", dude I am not your nanny, formulate your own opinion by doing research and thru observations.
 
-"But this is Linux?" and they are related to desktop Linux adoption 🙂.
+"But this is Linux as a desktop?" and they are related to desktop Linux adoption 🙂.
 
 # Adoption of desktop Linux is slow because reasons
 
@@ -136,11 +139,28 @@ This can be a bit annoying for those that do not want to learn those things as t
 done asap.
 
 In my honest opinion though, this is not the fault of Linux. It's more of like "We don't want to include
-Linux builds for this X software because we generate less money there" so it's a bit understandable.
+Linux builds for this X software because we generate less money there" so it's a bit understandable
+because capitalism. \*cough cough\*
+
+# Is it now normie friendly then?
+
+That kind of depends. Even the most desktop user friendly Linux distributions are not completely normie
+friendly, starting from the installer to a fully installed setup. But I have to say that
+it kind of is. Linux has come so far from being a developer and an enthusiast only operating system
+to somewhat close to general user desktop operating system.
+
+I think it's kind of fortunate that there are an increasing number of enthusiasts and volunteers to
+create (or fork) Linux distributions and design them in a way that even those with little to no
+technical knowledge can install Linux. One good example is Linux Mint, Ubuntu, and Fedora and some
+Arch forks such as EndeavourOS and ArchCraft. However, the issue also arises *during* desktop usage
+where users complain about installing drivers, codecs, and other stuff that requires at least
+some technical know-how to fix/install/debug them. So much for an out-of-the-box experience.
+
+Hence, I am not going to say it's fully normie friendly but there is evidence of progress.
 
 # FYI
 
 Actually, *I don't use a desktop environment as much as I used to*, I always often use a tiling window manager such as
 SwayWM, RiverWM, and Hyprland. For me, it can be considered a desktop linux experience (so you can only blame yourself for having bad configuration or setup). 
-However, this are for enthusiast power-users that like to configure everything down to the source code (such as DWM) and our topic
+However, these are for enthusiast power-users that like to configure everything down to the source code (such as DWM) and our topic
 is about desktop Linux for the normies so it's irrelevant.
