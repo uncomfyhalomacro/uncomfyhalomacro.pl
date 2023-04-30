@@ -126,7 +126,9 @@ Here is my take for why it is slow.
 
 Some people are tech-savvy enough to appreciate open source software and make Linux as their daily
 driver and I kind of understand that. However, the reason the normies can't use Linux is that
-the workflow, the setup, the software availability and the installation method for some software. 
+the workflow, the setup, the software availability and the installation method for some software are 
+unfamiliar to them.
+ 
 Additionally, desktop Linux is more centered around seasoned developers and enthusiasts rather than 
 the common people. And most people buy computers with pre-installed operating systems *which of course is **Windows** or **MacOS*** given that
 Linux has a very small marketshare (around 1-2%). Those operating systems were designed 
