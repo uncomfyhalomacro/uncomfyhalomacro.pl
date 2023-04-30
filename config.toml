@@ -11,7 +11,7 @@ theme = "jera"
 
 generate_feed = true
 
-feed_filename = "rss.xml"
+feed_filename = "atom.xml"
 
 taxonomies = [
   {name = "tags", render = true}
