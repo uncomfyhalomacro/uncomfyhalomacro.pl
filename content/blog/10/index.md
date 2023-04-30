@@ -1,5 +1,5 @@
 +++
-title = "Problems with Linux as a desktop - Is it normie friendly already?"
+title = "Is Linux (as a desktop) normie friendly already?"
 description = "we are not there yet and maybe for a long time"
 date = 2023-04-27
 updated = 2023-04-29
@@ -91,7 +91,13 @@ free can be a problem.
 > Software availability does not equate to software quality
 
 Yes. Just because it's available, it does not mean you get the quality you want like from proprietary software
-as well. "But you are a FOSS enthusiast right?", I am and hear me out. I think the issue about being free
+as well. Proprietary software can be low quality though. However, what I am saying is that, it is hard
+for FOSS to achieve similar quality unless there are incentives.
+
+Money, is undoubtly, one of the driving force to keep FOSS alive through funding. I remembered reading
+an article stating that GNOME was close to dying because of the lack of funding.
+
+"But you are a FOSS enthusiast right?", I am and hear me out. I think the issue about being free
 is the fact that most people interpret ***free*** as in ***free beer***. This means that people who
 contribute and/or maintain FOSS software does not need any incentive... but oh boy they do 🥲. Lots of software
 are very slow to update, slow bug fixes which some can even span for a decade or two (yes that's true lmao), and
@@ -120,10 +126,9 @@ Here is my take for why it is slow.
 
 Some people are tech-savvy enough to appreciate open source software and make Linux as their daily
 driver and I kind of understand that. However, the reason the normies can't use Linux is that
-the workflow, the setup, the software availability and the installation method for some software
-are the reasons why normies cannot use Linux. Additionally, desktop Linux is more centered around
-seasoned developers and enthusiasts rather than the common people. And most people buy computers
-with pre-installed operating systems *which of course is **Windows** or **MacOS*** given that
+the workflow, the setup, the software availability and the installation method for some software. 
+Additionally, desktop Linux is more centered around seasoned developers and enthusiasts rather than 
+the common people. And most people buy computers with pre-installed operating systems *which of course is **Windows** or **MacOS*** given that
 Linux has a very small marketshare (around 1-2%). Those operating systems were designed 
 *for those people* and it is no surprise that desktop Linux will stay as obscure for another 
 decade or so *unless they use the Steam Deck*.
@@ -156,7 +161,14 @@ Arch forks such as EndeavourOS and ArchCraft. However, the issue also arises *du
 where users complain about installing drivers, codecs, and other stuff that requires at least
 some technical know-how to fix/install/debug them. So much for an out-of-the-box experience.
 
-Hence, I am not going to say it's fully normie friendly but there is evidence of progress.
+Hence, I am not going to say it's fully normie friendly but there is evidence of progress. This is
+my honest opinion that desktop Linux requires a lot of patience and workarounds just to make it
+work sometimes.
+
+For instance, I have to install the flatpak software for my girlfriend
+since it's the fastest way to get codecs built-in to the software e.g. Firefox. My girlfriend is 
+not a developer nor a programmer nor a tech enthusiast. Thus, I have to make her openSUSE
+installation as sane for her as much as possible.
 
 # FYI
 
