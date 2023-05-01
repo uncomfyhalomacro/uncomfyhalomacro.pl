@@ -1,13 +1,13 @@
 +++
 title = "Building LLVM from source"
 description = "from the Learning Compilers book"
-tags = [
-  "installing",
-  "building",
-  "compilers"
-]
 date = 2023-02-05
 updated = 2023-04-26
+[taxonomies]
+tags = [
+  "compilers",
+  "llvm"
+]
 +++
 
 # Learning LLVM

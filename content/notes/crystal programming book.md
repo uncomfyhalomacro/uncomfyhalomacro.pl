@@ -3,6 +3,8 @@ title = "Crystal Programming Book"
 description = "my notes on crystal lang"
 date = 2023-03-19
 updated = 2023-04-13
+[taxonomies]
+tags = ["crystal", "llvm", "ruby", "programming"]
 +++
 
 # Crystal Notes
