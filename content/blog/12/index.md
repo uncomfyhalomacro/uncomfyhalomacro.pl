@@ -3,7 +3,7 @@ title = "How should you choose a distro?"
 description = "a guide for new and old time users alike"
 date = 2023-05-12
 [taxonomies]
-tags = ["linux", "technology", "workflows"]
+tags = ["linux", "technology", "workflow"]
 +++
 
 
