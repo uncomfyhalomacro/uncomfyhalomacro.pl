@@ -32,7 +32,7 @@ With helix, you have to write a simple configuration, specifically at `languages
 ## Writing the Julia LSP script for the LSP
 
 As helix does not have the option to pass the value of the current working directory of the file or buffer 
-(maybe I am wrong, do correct me though!) unlike neovim's `%:p:h`.
+(maybe I am wrong, do correct me though!) unlike neovim's `%:p:h`, our script is like so:
 
 ```julia
 import Pkg
@@ -86,7 +86,33 @@ then run the `run` function with the `server`.
 
 ## Adding it to `language.toml`
 
-Once we are done, we can finally either 
+Once we are done, we can finally either add it to a script file that can be executed within your `PATH` or just plain
+execute it like `julia --project=@helix-lsp path/to/scriptfile.jl`.
+
+Here is a sample:
+
+```toml
+[[language]]
+name = "julia"
+scope = "source.julia"
+injection-regex = "julia"
+file-types = ["jl"]
+roots = ["Project.toml", "Manifest.toml", "JuliaProject.toml"]
+comment-token = "#"
+language-server = { command = "julia", args = [
+    "--project=@helix-lsp",
+    "--sysimage=/home/uncomfy/.julia/environments/helix-lsp/languageserver.so",
+    "--startup-file=no",
+    "--history-file=no",
+    "--quiet",
+    "--sysimage-native-code=yes",
+    "/home/uncomfy/.local/bin/julia-lsp.jl"
+    ] }
+indent = { tab-width = 4, unit = "    " }
+```
+
+It is up to you if you want to use PackageCompiler.jl to create a sysimage and make the LSP faster. Fortunately,
+you don't really need it since version 1.9.0 is very fast now.
 
 # There is `runserver`, why not use that?
 
