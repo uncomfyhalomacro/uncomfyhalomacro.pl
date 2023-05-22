@@ -96,7 +96,7 @@ and set it as the `env_path`. This can be seen with my [kak-lsp](https://github.
 on the default `kak-lsp.toml`
 
 As you may noticed, it's not in the script we have discussed before this section. So I probably must have forgotten why 
-I wrote that script only to end up not there is no way to check the path to the buffer or file. **Therefore, I recommend to run helix within the root
+I wrote that script only to end up that there is no way to check the path to the buffer or file. **Therefore, I recommend to run helix within the root
 of your Julia project**.
 
 Let me know if you are not experiencing any issues with `runserver` since someone suggested that it works 
