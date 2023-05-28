@@ -55,7 +55,9 @@ to increase blood flow to the damaged site through vasodilation. Inflammation
 is triggered by either of the two substances: **histamine**, and **cytokine**. These substances
 are released by the phagocytic cells.
 
-Fever is the most misunderstood immune response.
+Fever is the most misunderstood immune response. But it is believed that a body temperature that is higher than normal. A normal temperature can vary from person to person, but it is usually around 98.6 °F (37 °C). A fever is not a disease. It is usually a sign that your body is trying to fight an illness or infection.
+
+Infections cause most fevers. You get a fever because your body is trying to kill the virus or bacteria that caused the infection. Most of those bacteria and viruses do well when your body is at your normal temperature. But if you have a fever, it is harder for them to survive. Fever also activates your body's immune system.
 
 ## Adaptive Immune System
 
