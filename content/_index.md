@@ -1,6 +1,6 @@
 +++
-title = "uncomfy's tavern and screams"
-description = "welcome to my website!"
+title = "Uncomfy's tavern and screams"
+description = "sometimes i even wonder why i made this... oh well 🤷‍♂️"
 sort_by = "weight"
 transparent = true
 paginate_by = 3
