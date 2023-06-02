@@ -110,8 +110,8 @@ our body just destroyes them no problem. But other's immune systems are overzeal
 *allergens*. Hence, allergies exist as a "bug" of our immune system.
 
 # Further Reading
-
-Read the following. Don't skip.
+ 
+Read the following. Don't skip. Most of the exam is based on this blog and the links below.
 
 - [Libretexts Chapter 20.4 - Immune System](https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Biology_(Wakim_and_Grewal)/20%3A_Immune_System/20.4%3A_Innate_Immune_System)
 - [Khan Academy Types of Immune Responses](https://www.khanacademy.org/test-prep/mcat/organ-systems/the-immune-system/v/types-of-immune-responses-innate-and-adaptive-humoral-vs-cell-mediated)
@@ -124,3 +124,6 @@ Read the following. Don't skip.
 4. What is a cytokine?
 5. Research about the complement system.
 6. Describe all pathogen types.
+
+
+

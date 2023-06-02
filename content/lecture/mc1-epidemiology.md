@@ -247,5 +247,55 @@ in for ourselves for a questionable future in health and emerging diseases.
 through ***horizontal gene transfer***.
 3. How do diseases spread? Cite an example for each mode of transmission.
 4. What is the study of disease dynamics?
+5. Why are vaccinations important? Why is acquired immunity not enough?
+6. Why are basic concepts of immunity flawed in our course? What is the reality about acquired immunity and vaccinations?
 
+# List of terms and definitions
 
+- **epidemiology**. a study of the distribution of health and disease in a population.
+- **pandemic**. a worldwide uncontrollable spread of a disease.
+- **endemic**. a disease that is not a threat but is consistently present.
+- **epidemic**. an uncontrollable spread of a disease in a particular region. it may evolve into a pandemic.
+- **patient zero**. the first contact of infection of a disease. may be known or unknown.
+- **shedding**. a shedding of infectious particles from the host to the outside environment. it increases chance
+  of infecting new hosts.
+- **reinfection**. self-explanatory.
+- **susceptible**. healthy hosts that are yet to be infected.
+- **infection**. a host that is now invaded by pathogens.
+  - **viral infection**. caused by a virus.
+  - **fungal infection**. caused by a fungus.
+  - **parasitic infection**. usually refers to worms or large parasites.
+  - **bacterial infection**. caused by bacteria.
+- **pathogen**. a particle or organism that causes disease. *also called **infectious agents***.
+- **antimicrobial resistance**. microorganisms that are resistant to antimicrobial treatments or drugs.
+- **superbug**. a microorganism that is considered to be a threat because of its high resistance in various antimicrobial drugs.
+- **"flatten the curve"**. a phrase used by epidemiologists
+and healthcare professionals to describe a slow and/or low rate of infection.
+- **microbiota**. refers to the microbial ecosystem within the human body.
+- **COVID-19**. the disease caused by the SARS-CoV-2 coronavirus.
+- ***Enterohemorrhagic Escherichia coli***. a strain of *E. coli* that can cause internal bleeding in the gut.
+- **AIDS**. caused by the Human Immunodeficiency Virus or **HIV**.
+- **strain**. a species of a microorganism that may have different traits and characteristics than the others of the same species.
+- **variant**. not to be confused with strains. this focuses on the genetic code of the pathogen. variants may exhibit different physical properties called **strains**.
+-  **fomites**. infectious agents that are attached to surfaces that may still infect hosts through physical
+contact.
+- **contamination**. unintentional introduction of microorganisms of another species, strain, or variant in pure culture.
+- **antiviral**. drugs that help you fight against viral pathogens. can also be preventative e.g. vaccines
+- **antibacterial**. drugs that help you fight against bacterial pathogens.
+- **antimycotic**. drugs that help you fight against fungal pathogens.
+- **chronic disease**. diseases caused by host lifestyle e.g. obesity, heavy smoking
+- **infectious disease**. diseases caused by pathogens.
+- **non-pathogenic**. describes a microorganism that is not harmful.
+- **disease**. describes a disorder of the structure or function in a host. can be caused by lifestyle or pathogen infection.
+- **symptoms**. a visual manifestation of the disease e.g. coughing, rashes.
+- **asymptomatic**. no visible manifestation of an infection or disease from the host.
+- **herd immunity**. a large number of the population becomes immune to a disease acting as a barrier to prevent further infection.
+- **vaccine**. a substance that is used to give immunity. it may vary in formualation e.g. viral components,
+weakened live virus, fragments of antigens, or genetic material. comes from the French and Latin word
+"vacca" from the virus of cowpox which they call *vaccinia*.
+- **novel pathogen**. used to denote a pathogen that was never before seen or just have been observed in
+medical literature e.g. *novel virus*, *novel bacteria*. The COVID-19 was caused by a novel coronavirus for example.
+- **zoonosis**. transfer of pathogens between host animal species e.g. birds to pigs to humans.
+- **spillover**. same as above. however, it describes more of an evolution of the disease to break host barriers infecting new kinds of hosts. also called as **zoonotic spillover**.
+- **acquired immunity**. immunity acquired after a recovery from an infection. reinfection is less likely.
+- **droplets**. pathogen-containing fluid droplets. usually aerosolized through coughing or sneezing.
