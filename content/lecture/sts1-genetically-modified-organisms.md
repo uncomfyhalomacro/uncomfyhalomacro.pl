@@ -103,3 +103,47 @@ in young people.
 3. How does genetic engineering help us mitigate the effects of climate change?
 4. List down at least one species of plant that was saved from extinction
    through genetic engineering.
+
+# List of terms and definitions
+
+Genetically Modified Organism (GMO): An organism whose genetic material has been altered using genetic engineering techniques. GMOs are created by introducing genes from one species into another to confer specific traits or characteristics.
+
+Genetic Engineering: The manipulation and alteration of an organism's genetic material to introduce or modify specific traits. It involves isolating, modifying, and reintroducing DNA sequences into an organism to produce desired characteristics.
+
+Transgene: A gene that has been transferred from one organism to another through genetic engineering. The transgene can be from the same or a different species and is typically used to confer specific traits or characteristics to the recipient organism.
+
+Recombinant DNA (rDNA): DNA molecules formed by combining DNA sequences from different sources or species. Recombinant DNA technology is a key tool in genetic engineering, allowing the creation of transgenic organisms.
+
+Gene Splicing: The process of cutting and recombining DNA sequences from different sources, typically performed in the laboratory to create new combinations of genes. Gene splicing is used to insert foreign genes into an organism's genome.
+
+Biotechnology: The application of biological and genetic engineering techniques to develop products and solutions that improve living organisms, industrial processes, and medical treatments. It encompasses a wide range of practices, including genetic engineering and the use of GMOs.
+
+Selective Breeding: The traditional method of breeding plants or animals with desirable traits to create offspring with those same traits. Selective breeding is not considered genetic engineering because it involves the selection of naturally occurring genetic variation rather than the introduction of foreign genes.
+
+Herbicide Resistance: The ability of a plant to withstand the application of specific herbicides without being damaged. Herbicide-resistant GMOs are created by introducing genes that produce enzymes or proteins that break down or deactivate the herbicide.
+
+Pest Resistance: The ability of a plant to resist damage caused by pests, such as insects, viruses, or fungi. Pest-resistant GMOs are created by introducing genes that produce toxins harmful to pests or genes that enhance the plant's own defense mechanisms.
+
+Gene Editing: A set of techniques used to modify an organism's genome by precisely altering its DNA sequence. Gene editing tools like CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) allow scientists to make targeted changes in an organism's genes without necessarily introducing foreign genes.
+
+Genome: The complete set of genetic material (DNA) of an organism, including all of its genes. The genome contains the instructions for building and maintaining an organism.
+
+Gene Transfer: The process of transferring genes from one organism to another. It can occur naturally through processes like sexual reproduction or artificially through genetic engineering techniques.
+
+Marker Gene: A gene introduced into an organism's genome during genetic engineering to serve as a selectable or observable marker. Marker genes are used to identify and track the presence of the desired transgene in the recipient organism.
+
+Antibiotic Resistance Marker: A common type of marker gene used in genetic engineering. It provides resistance to antibiotics, allowing researchers to selectively identify and cultivate cells or organisms that have successfully incorporated the desired transgene.
+
+Molecular Farming: The use of genetically modified plants or animals to produce valuable substances, such as pharmaceuticals, vaccines, or industrial enzymes. These organisms act as "factories" for the production of high-value compounds.
+
+Synthetic Biology: An interdisciplinary field that combines biology, engineering, and computer science to design and construct new biological parts, devices, and systems. It involves the creation of synthetic DNA sequences and the engineering of novel biological functions.
+
+Genetic Modification Techniques: Various methods used to introduce foreign genes or modify an organism's DNA. These techniques include gene splicing, gene editing, and RNA interference (RNAi), among others.
+
+Biofortification: The process of enhancing the nutritional content of food crops through genetic engineering. Biofortified crops are designed to contain higher levels of specific vitamins, minerals, or other beneficial compounds.
+
+Environmental Impact Assessment: A process to evaluate the potential environmental risks and benefits associated with the release of GMOs into the environment. It helps identify and minimize any potential adverse effects on ecosystems, biodiversity, or human health.
+
+Coexistence: The simultaneous cultivation of genetically modified and non-genetically modified crops or the raising of genetically modified and non-genetically modified organisms in close proximity. Coexistence measures aim to ensure that GMOs and conventional crops can coexist without significant cross-pollination or other unintended effects.
+
+ Biosafety: The discipline concerned with ensuring the safe handling, transport, use, and disposal of GMOs. Biosafety measures and regulations are in place to prevent potential risks to human health, animal health, and the environment.
