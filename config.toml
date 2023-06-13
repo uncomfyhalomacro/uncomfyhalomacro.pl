@@ -11,6 +11,8 @@ theme = "jera"
 
 generate_feed = true
 
+ignored_content = ["*/**/*.zk/*"]
+
 taxonomies = [
   {name = "tags", render = true, feed = true}
 ]
