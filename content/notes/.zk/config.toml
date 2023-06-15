@@ -15,10 +15,10 @@
 #default-title = "Untitled"
 
 # Template used to generate a note's filename, without extension.
-filename = "{{filename}}"
+filename = "{{slug title}}/index"
 
 # The file extension used for the notes.
-#extension = "md"
+extension = "md"
 
 # Template used to generate a note's content.
 # If not an absolute path, it is relative to .zk/templates/
@@ -29,6 +29,10 @@ template = "default.md"
 #    "drafts/*",
 #	"log.md"
 #]
+ignore = [
+  "log.md",
+  "_index.md"
+]
 
 # Configure random ID generation.
 
@@ -121,13 +125,13 @@ template = "tags.md"
 
 # Format used to generate links between notes.
 # Either "wiki", "markdown" or a custom template. Default is "markdown".
-link-format = "[[{{title}}]](@/notes/{{filename}}.md)"
+link-format = "[{{title}}]({{rel-path}})"
 # Indicates whether a link's path will be percent-encoded.
 # Defaults to true for "markdown" format and false for "wiki" format.
-link-encode-path = true
+link-encode-path = false
 # Indicates whether a link's path file extension will be removed.
 # Defaults to true.
-#link-drop-extension = true
+link-drop-extension = true
 
 # Enable support for #hashtags.
 hashtags = false

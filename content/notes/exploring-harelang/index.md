@@ -35,6 +35,8 @@ export fn main() void = {
 - Removing `!` causes an error since the _programmer is desired to handle this_ as
 described in [Error handling](#error-handling).
 
+[Functions and parameters](#functions-and-parameters)
+
 #### Hare basics
 
 ##### Functions and parameters

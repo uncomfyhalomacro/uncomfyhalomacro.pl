@@ -13,7 +13,6 @@ tags = ["crystal", "llvm", "ruby", "programming"]
 
 Exploring the Crystal Programming Language
 
-
 ## Brief History
 
 - Crystal was created in 2011
