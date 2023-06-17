@@ -1,5 +1,5 @@
 +++
-title = "From Debian to openSUSE"
+title = "Journey to openSUSE"
 description = "here i share my linux journey"
 date = 2023-06-09
 draft = false
@@ -123,4 +123,22 @@ as `mdbook`, `swww`, and `xdg-desktop-hyprland`.
 
 ## Amazing community
 
+I met lots of talented and skilled individuals in openSUSE that I really just want to steal their brain and make theirs mine.
+
+There are a lot of people as well that are humorous and funny to a point I really like to lurk there sometimes.
+
+But again, that's because we have amazing moderators.
+
 ## I learned a lot
+
+When I joined openSUSE, I learned lives of different people there and met some fellow people who use different kind of
+OSes. I learned about their perspectives in the tech community. And I think being in openSUSE really opened my eyes
+that there is much more than "free" and "open-source software". Various people have different reasons of using Linux.
+
+## Would I still use openSUSE forever?
+
+Depends. Maybe in the future my needs may become entirely different. I have been eyeing on reproducibility
+where I can predict my current setup is the same across different machines such as NixOS and other immutable
+distributions such as openSUSE Aeon and Fedora Silverblue.
+
+But I won't forget about the openSUSE community ☺️
