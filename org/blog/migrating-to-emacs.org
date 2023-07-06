@@ -1,0 +1,19 @@
+#+zola_base_dir: ../../.
+#+zola_section: blog
+#+filetags: blog emacs editor zola
+#+TITLE:My Migration to Emacs
+#+AUTHOR:Soc Virnyl Estela
+#+EMAIL:socvirnyl.estela@gmail.com
+#+DATE:2023-07-01
+
+* I tried emacs...
+
+And it is amazing! 👀
+
+** Why I tried Emacs
+
+I tried Emacs for the following reasons
+
+*** Org Mode
+
+As it turns out,
