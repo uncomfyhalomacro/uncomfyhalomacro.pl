@@ -17,16 +17,23 @@ taxonomies = [
   {name = "tags", render = true, feed = true}
 ]
 
+
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
-render_emoji = false
+render_emoji = true
 
 extra_syntaxes_and_themes = ["static/assets/highlighting/catppuccin"]
 
-highlight_theme = "Catppuccin-latte"
+highlight_theme = "css"
+
+highlight_themes_css = [
+  { theme = "Catppuccin-mocha", filename = "syntax-theme-dark.css" },
+  { theme = "Catppuccin-latte", filename = "syntax-theme-light.css" },
+]
 
 [extra]
 # Put all your custom variables here
