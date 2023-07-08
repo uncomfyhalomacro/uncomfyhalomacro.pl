@@ -10,7 +10,7 @@ build:
   zola build
 
 publish: build
-  #!/usr/bin/bash
+  #!/usr/bin/env bash
   set -euxo pipefail
   cp .domains public/.domains
   git config --global init.defaultBranch main
@@ -23,4 +23,4 @@ publish: build
   git commit -m "update site page for ${CI_COMMIT_SHA:-}"
   git push --force -u origin main
 
-do-all: update-theme build publish
+do-all: update-theme publish
