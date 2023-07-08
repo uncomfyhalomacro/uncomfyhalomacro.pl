@@ -13,7 +13,6 @@ publish: build
   #!/usr/bin/bash
 
   set -euxo pipefail
-  zola build
   cp .domains public/.domains
   git config --global init.defaultBranch main
   git config --global user.name "${CI_REPO_OWNER}"
