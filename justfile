@@ -19,7 +19,7 @@ publish: build
   git config --global user.email "${MAIL}"
   pushd public/
   git init
-  git remote add origin ""https://${PAGES_ACCESS_TOKEN}@codeberg.org/${CI_REPO}.git"
+  git remote add origin "https://${PAGES_ACCESS_TOKEN}@codeberg.org/${CI_REPO}.git"
   git add -A
   git commit -m "update site page for ${CI_COMMIT_SHA:-}"
   git push --force -u origin main
