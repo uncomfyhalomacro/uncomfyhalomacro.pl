@@ -10,21 +10,21 @@ template = "index.html"
 
 # About me
 
-I am uncomfy, a wannabe programmer, who likes to discuss about Linux, Wayland, and various programming languages
+I am Soc (aka ***uncomfy***) and welcome to my website! I like to discuss about Linux, Wayland, and various programming languages
 such as Julia, and Rust. My other interests are biology, webtoons, and anime. I have a bachelor's degree in
 biology and I majored in microbiology. For now, I am currently teaching at a private university. I am
 planning to shift my career related to tech but that needs some work for now. 
 
-> Why call yourself "wannabe programmer"?
-
-Because I have no talent and I am not a genius like Linus Torvalds or Drew Devault.
+If you want to know what I use and what I want to learn, read further down below.
 
 ## Software and tools I use daily
 
 - [Helix](https://helix-editor.com)
+- [Emacs](https://www.gnu.org/software/emacs)
 - [Zellij](https://zellij.dev)
 - [Foot](https://codeberg.org/dnkl/foot)
-- [Hyprland](https://hyprland.org)
+- ~~[Hyprland](https://hyprland.org)~~
+- [RiverWM](https://github.com/riverwm/river)
  
 ## Programming Languages I am really familiar with
 
@@ -49,4 +49,16 @@ This theme is much inspired from [zerm](https://github.com/ejmg/zerm), a really 
 template.
 
 This website is designed to be for blogs but other links for other purposes can be found below:
+
+
+
+
+
+
+
+
+
+
+
+
 
