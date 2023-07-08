@@ -1,12 +1,13 @@
 #!/usr/bin/just
 
 update-theme:
-  git submodule update --recursive --remote
+  git submodule update --recursive --remote --init
 
 check:
   zola check
 
 build:
+  mkdir -p templates/
   zola build
 
 publish: build
