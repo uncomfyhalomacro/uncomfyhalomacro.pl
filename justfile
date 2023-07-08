@@ -14,9 +14,6 @@ publish: build
   #!/usr/bin/env bash
   set -euxo pipefail
   cp .domains public/.domains
-  git config --global init.defaultBranch main
-  git config --global user.name "${CI_REPO_OWNER}"
-  git config --global user.email "${MAIL}"
   pushd public/
   git init
   git remote add origin "https://${PAGES_ACCESS_TOKEN}@codeberg.org/${CI_REPO}.git"

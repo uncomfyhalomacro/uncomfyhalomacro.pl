@@ -9,9 +9,12 @@ pipeline:
     when:
       event: [push, tag]
     image: opensuse/tumbleweed:latest
-    secrets: [ PAGES_ACCESS_TOKEN ]
+    secrets: [ PAGES_ACCESS_TOKEN, MAIL ]
     commands:
       - zypper --non-interactive install just zola git
+      - git config --global init.defaultBranch main
+      - git config --global user.name "${CI_REPO_OWNER}"
+      - git config --global user.email "${MAIL}"
       - just publish
 branches:
   include: [ deploy-branch ]
