@@ -11,7 +11,7 @@ pipeline:
     image: opensuse/tumbleweed:latest
     secrets: [ PAGES_ACCESS_TOKEN ]
     commands:
-      - zypper --non-interactive install just zola
+      - zypper --non-interactive install just zola git
       - just do-all
 branches:
   include: [ deploy-branch ]
