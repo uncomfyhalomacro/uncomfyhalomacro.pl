@@ -1,0 +1,19 @@
+matrix:
+  platform:
+    - linux/amd64
+
+platform: ${platform}
+
+pipeline:
+  publish:
+    when:
+      event: [push, tag]
+    image: opensuse/tumbleweed:latest
+    secrets: [ PAGES_ACCESS_TOKEN ]
+    commands:
+      - zypper --non-interactive install just zola
+      - just do-all
+branches:
+  include: [ deploy-branch ]
+  exclude: [ main, feature/* ]
+runs_on: [ success, failure ]
