@@ -1,5 +1,8 @@
 #!/usr/bin/just
 
+update-theme:
+  git submodule update --recursive --remote
+
 check:
   zola check
 
@@ -22,4 +25,4 @@ publish: build
   git commit -m "update site page for ${CI_COMMIT_SHA:-}"
   git push --force -u origin main
 
-do-all: check build publish
+do-all: update-theme check build publish
