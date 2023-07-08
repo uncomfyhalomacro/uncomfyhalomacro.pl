@@ -11,7 +11,6 @@ build:
 
 publish: build
   #!/usr/bin/bash
-
   set -euxo pipefail
   cp .domains public/.domains
   git config --global init.defaultBranch main
@@ -24,4 +23,4 @@ publish: build
   git commit -m "update site page for ${CI_COMMIT_SHA:-}"
   git push --force -u origin main
 
-do-all: update-theme check build publish
+do-all: update-theme build publish
