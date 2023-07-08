@@ -1,0 +1,40 @@
+#+zola_base_dir: ../../.
+#+zola_section: lecture
+#+title: Introduction to Environmental Science
+#+description: and it's importance
+#+author: Soc Virnyl S. Estela
+#+email: socvirnyl.estela@gmail.com
+#+date: 2023-07-07
+
+* TODO To be posted
+SCHEDULED: <2023-07-08 Sat>
+:LOGBOOK:
+- Note taken on [2023-07-07 Fri 13:35] \\
+  To be used as coverage for quiz on Monday.
+:END:
+
+* Definition
+
+* Components of an ecosystem
+
+* Types of ecosystems
+
+* Importance of ecosystems
+
+* Biodiversity
+
+* Threats to the ecosystem
+
+* Review Questions
+
+1. What is an ecosystem?
+2. What are examples of an ecosystem?
+3. What are its components? How do they interact with each other?
+4. Ecosystems are not static/stagnant. Why is this so?
+5. Why are ecosystems important?
+6. What is biodiversity? How is biodiversity related to ecosystems?
+7. How can biodiversity an indicator of a healthy ecosystem?
+8. What are threats to an ecosystem?
+9. What are invasive species? Why is an introduction of a species not native to its habitat can be a disaster?
+10. Why is the circulation of nutrients in an ecosystem important?
+
