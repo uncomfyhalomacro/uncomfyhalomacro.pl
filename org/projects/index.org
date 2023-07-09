@@ -1,0 +1,30 @@
+#+zola_base_dir: ../../.
+#+zola_section: projects
+#+zola_tags: projects ideas
+#+title: projects and ideas
+#+author: Soc Virnyl Estela
+#+zola_weight: 0
+#+email: socvirnyl.estela@gmail.com
+#+date: 2023-07-09
+
+I put all my projects and ideas here. They are either dead or active. Mostly dead to be
+honest.
+
+* Rypper
+
+[[https://rypper.uncomfyhalomacro.pl][rypper]] is a package manager written in [[https://rust-lang.org][Rust]] with the goal of being an alternative package
+manager for [[https://get.opensuse.org][openSUSE]]. It may work with other RPM-based distributions. As it stands, it is still
+a /*work in progress*/. I consider this project to be active development.
+
+* Waylight
+
+[[https://github.com/waycrate/waylight][waylight]] is a brightness and gamma control tool for X11 and Wayland. The goal of this project
+is to allow me to learn [[https://ziglang.org][Zig]]. This may also let me understand how udev and sysfs stuffs work on
+Linux.
+
+* SBOL3.jl
+
+[[https://github.com/uncomfyhalomacro/SBOL3.jl][SBOL3.jl]] is a [[https://julialang.org][Julia]] project of mine that I postponed because of my lack of time to understand
+and create a multiple dispatch equivalent of the OOP nature of the [[https://sbolstandard.org/][SBOL3]] specification. I have an
+idea on how to approach it now. I will probably resume writing it once I got my ideas clearly.
+
