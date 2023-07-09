@@ -1,2 +1,10 @@
 public/
 **/**/.zk/*.db
+# Emacs related files
+
+# Backup files
+*~
+\#*\#
+
+# Undo-tree save-files
+*.~undo-tree
