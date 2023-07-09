@@ -1,9 +1,7 @@
 +++
 title = "Uncomfy's tavern and screams"
-description = "sometimes i even wonder why i made this... oh well 🤷‍♂️"
+description = "sometimes i even wonder why i made this... oh well 🤷"
 sort_by = "weight"
-transparent = true
-paginate_by = 3
 insert_anchor_links = "right"
 template = "index.html"
 +++
@@ -49,16 +47,4 @@ This theme is much inspired from [zerm](https://github.com/ejmg/zerm), a really 
 template.
 
 This website is designed to be for blogs but other links for other purposes can be found below:
-
-
-
-
-
-
-
-
-
-
-
-
 
