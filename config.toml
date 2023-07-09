@@ -53,6 +53,8 @@ show_masto_social = true
 more_sections = [
   { name="notes" },
   { name="lecture" }
+  # { name="projects" }
 ]
+
 
 
