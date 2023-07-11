@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       c4a7fa2e-945c-442f-b529-8f42d16cfb62
+:END:
+#+hugo_base_dir: ~/development/projects/pages
+#+hugo_section: notes
+#+title: Crystal
+#+date: 2023-07-11
+
+
+This note is for my test drive of [[id:65f323d7-9580-4e98-ba6b-edc2d1ed8a7f][Programming Languages]]
+
+
+I learned Crystal from the *Crystal Programming Book* authored by George Dietrich and
+Guilherme Bernal (with other contributors).
+
+* Brief History
+
+- Crystal was created in 2011
+- Manas Technology Solutions created the language (https://manas.tech)
+- Authors
+  - Ary Borenszweig
+  - Brian Cardiff
+  - Juan Wajnerman
+- Has over 500 Contributors and growing
+- Production Ready
+- Source code is found at https://github.com/crystal-lang/crystal
+
+** Features
+
+- Static Typing
+- Ruby-esque syntax
+- Compiles into machine code
+- Leverages LLVM
+- Expressive as Ruby
+- Concurrency
+- Low-level; can call C libraries or assembly
+- Project Manager called Shards. It's similar to [[id:ac5483d3-ad5a-4256-a4a5-9c8a2bdf86a3][Rust]]'s [[id:db41dc33-a11e-4c07-9ad0-25ee125fa49e][Cargo]]
+- Multi-dispatch like [[id:012ea94d-2074-4147-a72a-94efb4b38ed4][Julia]] (There maybe some differences that I don't know)
