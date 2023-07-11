@@ -50,11 +50,10 @@ twitter_username = "uncomfyhalo"
 
 show_masto_social = true
 
-more_sections = [
-  { name="notes" },
-  { name="lecture" }
-  # { name="projects" }
-]
+show_external_links = true
 
+external_links = [
+  { name="notes", description = "my zettelkasten notes", permalink = "https://zettelkasten.uncomfyhalomacro.pl/" }
+]
 
 
