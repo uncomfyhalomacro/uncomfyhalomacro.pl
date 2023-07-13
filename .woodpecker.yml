@@ -8,6 +8,7 @@ pipeline:
   publish:
     when:
       event: [push, tag]
+      branch: deploy-branch
     image: opensuse/tumbleweed:latest
     secrets: [ PAGES_ACCESS_TOKEN, MAIL ]
     commands:
@@ -16,7 +17,4 @@ pipeline:
       - git config --global user.name "${CI_REPO_OWNER}"
       - git config --global user.email "${MAIL}"
       - just publish
-branches:
-  include: [ deploy-branch ]
-  exclude: [ main, feature/* ]
 runs_on: [ success, failure ]
