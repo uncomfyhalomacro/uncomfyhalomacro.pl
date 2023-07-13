@@ -21,16 +21,17 @@ publish: build
     git commit -m "update site page for ${CI_COMMIT_SHA:-}"
     git push --force -u origin main
 
-local-publish
+local-publish:
     #!/usr/bin/env bash
     set -euxo pipefail
     export CI_COMMIT_SHA="$(git rev-parse HEAD)"
     cp .domains public/.domains
     pushd public/
     git init
+    git switch -c pages
     git remote add origin "git@codeberg.org:uncomfyhalomacro/pages.git"
     git add -A
     git commit -m "update site page for ${CI_COMMIT_SHA:-}"
-    git push --force -u origin main
+    git push --force -u origin pages
 
 do-all: update-theme publish
