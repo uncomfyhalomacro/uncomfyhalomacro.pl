@@ -1,0 +1,130 @@
+#+title: VSCodium Flatpak on openSUSE Aeon
+#+zola_base_dir: ../../.
+#+zola_section: blog
+#+filetags: workflow container aeon kalpa flatpak
+#+author: Soc Virnyl Estela
+#+description: a small short guide on how to setup VSCodium Flatpak on an immutable desktop 
+#+email: socvirnyl.estela@gmail.com
+#+date: 2023-07-14
+
+
+* Prerequisites
+
+To start, you must have an immutable linux desktop distribution such as openSUSE Aeon. In this short post,
+I will explain how to set up VSCodium Flatpak in an immutable linux desktop. Some of the steps
+can be imitated to other immutable distros such as Fedora Silverblue and VanillaOS.
+
+** Reason
+
+There are ongoing issues and questions amongst Linux users and skepticisms regarding the usability of
+immutable desktops and the push for an all *flatpak* (or *snap*, if you prefer that,) immutable desktop
+distribution.
+
+This post, however, only debunks misinformation of how to use VSCodium Flatpak (or even VSCode Flatpak) properly
+in this kind of system.
+
+
+* The Guide
+
+** Setting up Flatpak
+
+openSUSE Aeon already has flatpak set up out of the box but it's =system-wide=. If you prefer /user-wide/ installations, you can do:
+
+#+begin_src sh
+  flatpak --user remote-add \
+          --if-not-exists flathub \
+          https://dl.flathub.org/repo/flathub.flatpakrepo
+#+end_src
+
+** Installing VSCodium Flatpak
+
+Assuming you use openSUSE Aeon, you can install VSCodium Flatpak through GNOME Software. If you love to use the
+CLI, you can do the following:
+
+*** User-wide install
+
+#+begin_src sh
+  flatpak --user install com.vscodium.codium
+#+end_src
+
+*** System-wide install
+
+#+begin_src sh
+  flatpak install com.vscodium.codium
+#+end_src
+
+Then install Open-Remote-SSH Plugin for VSCodium - https://github.com/jeanp413/open-remote-ssh.
+
+** Setting up distrobox
+
+openSUSE Aeon comes with [[https://github.com/89luca89/distrobox][distrobox]] out of the /box/ 😜
+
+Distrobox is a [[https://podman.io][podman]] frontend much like [[https://github.com/containers/toolbox][toolbx]]. I prefer distrobox because it's way more flexible in my experience.
+
+To create my own container, I run the following command
+
+#+begin_src sh
+  distrobox-enter tumbleweed
+#+end_src
+
+This will create a podman container named as "tumbleweed". I advise you to use set a ~HOME~ directory
+though. You can do that by using the command
+
+#+begin_src sh
+  distrobox-create -n tumbleweed -H somedir/you/really/want/to/set/as/HOME/for/that/container
+#+end_src
+
+For more information, check out the documentation at https://distrobox.privatedns.org/usage.
+
+** Setting up SSH and SSHD in your container
+
+After entering your container (here we use "tumbleweed"), do
+
+#+begin_src sh
+
+  sudo /usr/sbin/sshd-gen-keys-start
+  # assuming you have vim installed in the podman container
+  # I use vim here
+  sudo vim /etc/ssh/sshd_config
+#+end_src
+
+Then add the following to your =/etc/ssh/sshd_config= in that container 
+
+#+begin_src txt
+Port 10000
+ListenAddress localhost
+PermitEmptyPasswords yes
+PermitUserEnvironment yes
+X11Forwarding yes
+#+end_src
+
+Next, run the ~sshd~ command like so
+
+#+begin_src sh
+  sudo /usr/sbin/sshd
+#+end_src
+
+Make sure the container is running during all of your sessions.
+
+Then in your *host system*, edit =~/.ssh/config= with the following content
+
+#+begin_src txt
+Host tumbleweed
+  HostName localhost
+  Port 10000
+#+end_src
+
+Finally, use your Open-Remote-SSH plugin in VSCodium to connect to that container and set up your
+development environment!
+
+* Conclusion
+
+Setting up VSCodium flatpak is complicated but not that hard as long as you are familiar with how containers
+work and how to choose the right plugins. I believe that a development environment that is mostly SSH-ing
+to containers bring benefits that outweighs its disadvantages:
+
+ - clean base system; install dev dependencies in the container
+ - throw the container away to start fresh if desired
+ - allows developers to install only the necessary stuff on their base system
+ - encourages the use of flatpaks, a universal distribution/packaging format
+ - explores possibilities of making immutable desktops as a viable development environment
