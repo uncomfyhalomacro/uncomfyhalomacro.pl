@@ -3,6 +3,7 @@ title = "VSCodium Flatpak on openSUSE Aeon"
 author = ["Soc Virnyl Estela"]
 description = "a small short guide on how to setup VSCodium Flatpak on an immutable desktop"
 date = 2023-07-14
+updated = 2023-07-15
 tags = ["workflow", "container", "aeon", "kalpa", "flatpak"]
 draft = false
 [taxonomies]
@@ -14,7 +15,6 @@ draft = false
 To start, you must have an immutable linux desktop distribution such as openSUSE Aeon. In this short post,
 I will explain how to set up VSCodium Flatpak in an immutable linux desktop. Some of the steps
 can be imitated to other immutable distros such as Fedora Silverblue and VanillaOS.
-
 
 ### Reason {#reason}
 
@@ -28,7 +28,6 @@ in this kind of system.
 
 ## The Guide {#the-guide}
 
-
 ### Setting up Flatpak {#setting-up-flatpak}
 
 openSUSE Aeon already has flatpak set up out of the box but it's `system-wide`. If you prefer _user-wide_ installations, you can do:
@@ -39,19 +38,16 @@ flatpak --user remote-add \
         https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
 
-
 ### Installing VSCodium Flatpak {#installing-vscodium-flatpak}
 
 Assuming you use openSUSE Aeon, you can install VSCodium Flatpak through GNOME Software. If you love to use the
 CLI, you can do the following:
-
 
 #### User-wide install {#user-wide-install}
 
 ```sh
 flatpak --user install com.vscodium.codium
 ```
-
 
 #### System-wide install {#system-wide-install}
 
@@ -60,7 +56,6 @@ flatpak install com.vscodium.codium
 ```
 
 Then install Open-Remote-SSH Plugin for VSCodium - <https://github.com/jeanp413/open-remote-ssh>.
-
 
 ### Setting up distrobox {#setting-up-distrobox}
 
@@ -74,7 +69,7 @@ To create my own container, I run the following command
 distrobox-enter tumbleweed
 ```
 
-This will create a podman container named as "tumbleweed". I advise you to use set a `HOME` directory
+This will create a podman container named as "tumbleweed". I advise you to set a **custom** `HOME` directory
 though. You can do that by using the command
 
 ```sh
@@ -112,7 +107,7 @@ Next, run the `sshd` command like so
 sudo /usr/sbin/sshd
 ```
 
-Make sure the container is running during all of your sessions.
+Make sure the container is running during all of your sessions. Distrobox does it by default.
 
 Then in your **host system**, edit `~/.ssh/config` with the following content
 
@@ -137,3 +132,4 @@ to containers bring benefits that outweighs its disadvantages:
 -   allows developers to install only the necessary stuff on their base system
 -   encourages the use of flatpaks, a universal distribution/packaging format
 -   explores possibilities of making immutable desktops as a viable development environment
+
