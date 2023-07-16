@@ -101,18 +101,19 @@ There are three levels of biodiversity which focuses on specific aspects as per 
 
 #### Genetic Diversity {#genetic-diversity}
 
-Diversity
-
+Genetic diversity pertains to the high variation of the *gene pool* of a population. 
+Genetic diversity is important because this variability lessens the likelihood of a population
+to be all affected by environmental factors such as disease.
 
 #### Species Diversity {#species-diversity}
 
-species
-
+Species diversity is the number of different species in a community or an ecosystem. It may also mean for another term 
+called *species richness*.
 
 #### Ecosystem diversity {#ecosystem-diversity}
 
-ecological
-
+Ecosystem diversity deals with the variation of the components, both abiotic and biotic, in an ecosystem. It addresses the
+combined characteristics of ***biodiversity*** and ***geodiversity***.
 
 ### Niches and Biodiversity {#niches-and-biodiversity}
 
@@ -120,6 +121,10 @@ According to [Levine and HilleRisLambers (2009)](https://faculty.washington.edu/
 
 > Niches are important in maintaining species diversity
 
+And this may hold true for most since an increase species diversity may also mean that there is a high chance *roles* are ***specialized***
+for the species of that ecosystem. Niches are dynamic and they are assigned to the species because of environmental pressures
+and evolutionary pressures. If there are two or more species having similar roles, there is a high chance of increased competition 
+which either eliminates the species in that space, either as extinction or migrating to other ecosystems for lesser competition.
 
 ## Offtopic: The Scientific Method {#offtopic-the-scientific-method}
 
