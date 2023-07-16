@@ -3,6 +3,7 @@ title = "Introduction to Environmental Science"
 author = ["Soc Virnyl S. Estela"]
 description = "understanding its importance and addressing societal issues."
 date = 2023-07-07
+updated = 2023-07-09
 draft = false
 [taxonomies]
 +++
@@ -64,6 +65,60 @@ The model explains in a manner where energy flows from **high density** to **low
 Unfortunately, these models do not really explain much of how the ecosystems **actually work**. For example, where can we assign
 organisms that generate energy from inorganic sources such as sulfur and methane and not directly from the Sun? These models
 fail to actually account for anything **beyond** photosynthesis, herbivory, carnivory, and omnivory.
+
+
+## Biodiversity {#biodiversity}
+
+As the words literally means "life in variety" or "life in diversity", biodiversity refers to the **level of desirable _variety_**
+of organisms living in an area. These areas can be any habitat from forest ecosystems to a small pond. Before we can see the importance
+of biodiversity, let's understand first what is an **ecological niche** or **niche**.
+
+
+### Ecological Niche {#ecological-niche}
+
+You should read the whole article that describes niches in National Geographic's [Niche encyclopedic entry](https://education.nationalgeographic.org/resource/niche/),
+
+> A species' niche is all of the environment factors and interspecies
+> relationships that influence the species.
+
+Species are assigned from their environment for what roles they have. These assignments are either **specialists**
+and **generalists**; the former is a result of narrow and limited niches and the latter is a result of broader niches.
+
+> No two species can have the same exact same niche.
+
+Otherwise, one species may outcompete over the other for resources and space and may lead the other to extinction or moving
+to another area where competition is less.
+
+In a sense, each species have designated roles in their habitat because of environmental factors. These designated roles
+decides the fate of different species in that ecosystem. A loss of a species may cause an imbalance of roles and cause
+a resources shift because of lack of competition or the increase thereof.
+
+
+### Three levels of biodiversity {#three-levels-of-biodiversity}
+
+There are three levels of biodiversity which focuses on specific aspects as per their names
+
+
+#### Genetic Diversity {#genetic-diversity}
+
+Diversity
+
+
+#### Species Diversity {#species-diversity}
+
+species
+
+
+#### Ecosystem diversity {#ecosystem-diversity}
+
+ecological
+
+
+### Niches and Biodiversity {#niches-and-biodiversity}
+
+According to [Levine and HilleRisLambers (2009)](https://faculty.washington.edu/jhrl/Levine&HRL09.pdf),
+
+> Niches are important in maintaining species diversity
 
 
 ## Offtopic: The Scientific Method {#offtopic-the-scientific-method}
