@@ -21,7 +21,7 @@ publish: build
     git commit -m "update site page for ${CI_COMMIT_SHA:-}"
     git push --force -u origin main
 
-local-publish:
+local-publish: build
     #!/usr/bin/env bash
     set -euxo pipefail
     export CI_COMMIT_SHA="$(git rev-parse HEAD)"
