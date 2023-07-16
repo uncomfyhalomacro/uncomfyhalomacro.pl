@@ -28,3 +28,30 @@ Linux.
 and create a multiple dispatch equivalent of the OOP nature of the [[https://sbolstandard.org/][SBOL3]] specification. I have an
 idea on how to approach it now. I will probably resume writing it once I got my ideas clearly.
 
+* qoi.cr
+
+[[https://github.com/uncomfyhalomacro/qoi.cr][qoi.cr]] is a [[https://crystal-lang.org][Crystal]] implementation of the [[https://qoiformat.org][Quick OK Image Format]], also known as QOI.
+The project is still in an unusable state though, but the necessary stuffs are there so anyone
+can just use those.
+
+* sbol3.cr
+
+[[https://github.com/uncomfyhalomacro/sbol3.cr][sbol3.cr]] is an attempt to implement [[https://sbolstandard.org/][SBOL3]] in [[https://crystal-lang.org][Crystal]]. I haven't written a single line of code
+for this one yet.
+
+* wlroots.cr
+
+[[https://github.com/uncomfyhalomacro/wlroots.cr][wlroots.cr]] is an attempt to write [[https://gitlab.freedesktop.org/wlroots][wlroots]] bindings in [[https://crystal-lang.org/][Crystal]]. No single line of code yet.
+
+* wayland.cr
+
+[[https://github.com/uncomfyhalomacro/wayland.cr][wayland.cr]] is an attempt to write [[https://wayland.freedesktop.org/][Wayland]] bindings in [[https://crystal-lang.org/][Crystal]]. No single line of code yet.
+
+* Amnion
+
+[[https://codeberg.org/uncomfyhalomacro/amnion][Amnion]] is attempt to write an ActivityPub client for Mastodon or any compatible implementation
+in [[https://rustlang.org][Rust]] using the [[https://iced.rs/][Iced]] GUI library. No single line of code yet.
+
+* copyme
+
+[[https://github.com/uncomfyhalomacro/copyme][copyme]] is a clipboard utility for linux. No single line of code yet.
