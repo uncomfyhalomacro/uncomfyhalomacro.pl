@@ -1,6 +1,6 @@
 +++
 weight = 0
-title = "projects and ideas"
+title = "projects"
 author = ["Soc Virnyl Estela"]
 date = 2023-07-09
 tags = ["projects", "ideas"]

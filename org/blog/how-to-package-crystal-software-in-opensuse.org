@@ -1,0 +1,9 @@
+#+zola_base_dir: ../../.
+#+zola_section: blog
+#+filetags: crystal opensuse packaging
+#+title: Packaging Crystal Software for openSUSE
+#+author: Soc Virnyl Estela
+#+email: socvirnyl.estela@gmail.com
+#+date: 2023-07-18
+
+
