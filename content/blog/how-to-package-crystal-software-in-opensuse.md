@@ -109,7 +109,7 @@ to whether to colorize by line, word or character.
 
 At the root of your project package e.g. `home:yourusername/blahaj`, run `osc service localrun download_files`. You will get a file called `blahaj-2.1.0.tar.gz`.
 Extracting the file gets us the directory `BLAHAJ-2.1.0/`. This means that in our `%prep` section, we need to add `%setup -qa1 -n BLAHAJ-%{version}`. This is to
-redirect the rpm macros that building should be at `RPM_BUILDDIR/BLAHAJ-2.1.0/` is at that directory since by default, it is `RPM_BUILDDIR/nameofpackage-version/`
+redirect the rpm macros that building should be at `RPM_BUILDDIR/BLAHAJ-2.1.0/` since by default, it is `RPM_BUILDDIR/nameofpackage-version/`
 based on the `Name:` and `Version:` RPM specfile prelude.
 
 
