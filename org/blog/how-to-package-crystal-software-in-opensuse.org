@@ -112,7 +112,7 @@ based on the ~Name:~ and ~Version:~ RPM specfile prelude.
 
 ** Building and Installing the package
 
-The following sections section should be easy here since ~make~ as build dependency has convenient macros such as ~%make_build~ and ~%make_install~.
+The following sections should be easy here since ~make~ as build dependency has convenient macros such as ~%make_build~ and ~%make_install~.
 
 #+begin_src txt
 Name: blahaj

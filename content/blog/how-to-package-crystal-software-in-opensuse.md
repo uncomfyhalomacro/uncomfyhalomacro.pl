@@ -115,7 +115,7 @@ based on the `Name:` and `Version:` RPM specfile prelude.
 
 ### Building and Installing the package {#building-and-installing-the-package}
 
-The following sections section should be easy here since `make` as build dependency has convenient macros such as `%make_build` and `%make_install`.
+The following sections should be easy here since `make` as build dependency has convenient macros such as `%make_build` and `%make_install`.
 
 ````txt
 Name: blahaj
