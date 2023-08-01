@@ -2,7 +2,7 @@
 title = "How I use MicroOS Desktop"
 date = 2023-05-28
 [taxonomies]
-tags = ["linux", "containers", "workflow", "desktop"]
+tags = ["linux", "container", "workflow", "desktop"]
 +++
 
 # Update on my current usage
