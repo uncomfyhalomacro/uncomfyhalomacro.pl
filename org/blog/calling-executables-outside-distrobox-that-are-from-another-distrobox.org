@@ -89,7 +89,7 @@ Since it says here that we can run a process from a running container, we can cr
 
 #+begin_src sh
   #!/bin/bash
-  /usr/local/bin/podman exec -it -w $PWD leap zig $@
+  /usr/local/bin/podman exec --user $USER -it -w $PWD leap zig $@
 #+end_src
 
 And save it to ~/usr/local/bin/zig~ and run ~sudo chmod +x /usr/local/bin/zig~.
@@ -126,13 +126,16 @@ With ~podman~, we can use its ~exec~ command to run executables /from other cont
 
 Plus ~$@~ to add possible other subcommands of an executable e.g. ~build~, ~test~, ~--help~.
 
+The ~--user~ is set to ~$USER~ so it respects your user inside the container. Otherwise, it will become ~root~ which
+maybe is not what you want.
+
 So the final and cool command for the pseudo zig executable is:
 
 #+begin_src bash
   #!/bin/bash
 
   # leap can be anything: container ID or container NAME
-  /usr/local/bin/podman exec -it -w $PWD leap zig $@
+  /usr/local/bin/podman exec --user $USER -it -w $PWD leap zig $@
 #+end_src
 
 * More information
