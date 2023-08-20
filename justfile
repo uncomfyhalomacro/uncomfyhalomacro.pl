@@ -14,6 +14,7 @@ publish: build
     #!/usr/bin/env bash
     set -euxo pipefail
     cp .domains public/.domains
+    cp LICENSE public/LICENSE
     pushd public/
     git init
     git remote add origin "https://${PAGES_ACCESS_TOKEN}@codeberg.org/${CI_REPO}.git"
@@ -26,6 +27,7 @@ local-publish: build
     set -euxo pipefail
     export CI_COMMIT_SHA="$(git rev-parse HEAD)"
     cp .domains public/.domains
+    cp LICENSE public/LICENSE
     pushd public/
     git init
     git switch -c pages
