@@ -1,5 +1,5 @@
 +++
-title = "Uncomfy's tavern and screams"
+title = "uncomfy's tavern and screams"
 description = "sometimes i even wonder why i made this... oh well 🤷"
 sort_by = "weight"
 insert_anchor_links = "right"
@@ -21,7 +21,7 @@ If you want to know what I use and what I want to learn, read further down below
 - [Emacs](https://www.gnu.org/software/emacs)
 - [Zellij](https://zellij.dev)
 - [Foot](https://codeberg.org/dnkl/foot)
-- ~~[Hyprland](https://hyprland.org)~~
+- [Hyprland](https://hyprland.org)
 - [RiverWM](https://github.com/riverwm/river)
  
 ## Programming Languages I am really familiar with
