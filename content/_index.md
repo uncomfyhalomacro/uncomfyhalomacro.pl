@@ -13,6 +13,8 @@ such as Julia, and Rust. My other interests are biology, webtoons, and anime. I 
 biology and I majored in microbiology. For now, I am currently teaching at a private university. I am
 planning to shift my career related to tech but that needs some work for now. 
 
+You can contact me through email at my email: socvirnyl.estela@uncomfyhalomacro.pl
+
 If you want to know what I use and what I want to learn, read further down below.
 
 ## Software and tools I use daily
