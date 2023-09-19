@@ -1,6 +1,6 @@
 +++
 title = "Calling Executables Outside Distrobox That Are From Another Distrobox"
-author = ["Soc Virnyl Estela"]
+authors = ["Soc Virnyl Estela"]
 date = 2023-08-06
 tags = ["container", "distrobox", "podman"]
 draft = false

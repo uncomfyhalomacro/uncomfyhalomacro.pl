@@ -1,6 +1,6 @@
 +++
 title = "I should have learned about state machines!"
-author = ["Soc Virnyl Estela"]
+authors = ["Soc Virnyl Estela"]
 description = "How to think logic as a form of states"
 date = 2023-09-15
 tags = ["programming", "logic", "biology", "rust"]
