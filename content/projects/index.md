@@ -1,7 +1,7 @@
 +++
 weight = 0
 title = "projects"
-author = ["Soc Virnyl Estela"]
+authors = ["Soc Virnyl Estela"]
 date = 2023-07-09
 tags = ["projects", "ideas"]
 draft = false
