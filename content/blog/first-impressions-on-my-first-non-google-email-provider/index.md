@@ -2,6 +2,7 @@
 title = "First impressions on my first non-Google email provider"
 description = "my first step in de-Googling"
 date = 2023-09-19
+updated = 2023-09-20T21:28:31Z
 authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["workflow", "lifestyle"]
@@ -77,7 +78,7 @@ plan; a total of 13 months. Unlucky!
 
 I will be going to skip a bit of the features since I haven't got used to it
 yet. But one thing that interests me to use more and more is the DavFS/WebDav
-feature. Although, there documentation was not really accurate nor informative
+feature. Although, their documentation was not really accurate nor informative
 about it. Yes, they have a documentation but what I mean is, it feels rushed.
 
 Other features are mentioned in
