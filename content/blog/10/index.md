@@ -3,6 +3,7 @@ title = "Is Linux (as a desktop) normie friendly already?"
 description = "we are not there yet and maybe for a long time"
 date = 2023-04-27
 updated = 2023-04-29
+authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = [
   "linux",

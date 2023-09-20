@@ -1,6 +1,6 @@
 +++
 title = "VSCodium Flatpak on openSUSE Aeon"
-author = ["Soc Virnyl Estela"]
+authors = ["Soc Virnyl Estela"]
 description = "a small short guide on how to setup VSCodium Flatpak on an immutable desktop"
 date = 2023-07-14
 updated = 2023-07-15

@@ -1,6 +1,6 @@
 +++
 title = "Introduction to Environmental Science"
-author = ["Soc Virnyl S. Estela"]
+authors = ["Soc Virnyl S. Estela"]
 description = "understanding its importance and addressing societal issues."
 date = 2023-07-07
 updated = 2023-07-09

@@ -2,6 +2,8 @@
 title = "I switched to Hyprland"
 description = "a new workflow that i may stay for a while"
 date = 2023-04-25
+authors = ["Soc Virnyl Estela"]
+[taxonomies]
 tags = [
   "wayland",
   "window-manager",

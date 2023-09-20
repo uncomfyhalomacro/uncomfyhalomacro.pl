@@ -1,6 +1,7 @@
 +++
 title = "Understanding the Immune System"
 date = 2023-04-15
+authors = ["Soc Virnyl Estela"]
 draft = false
 [taxonomies]
 tags = ["biology", "science", "medicine", "notes"]

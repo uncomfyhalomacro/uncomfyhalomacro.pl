@@ -1,6 +1,7 @@
 +++
 title = "How I use MicroOS Desktop"
 date = 2023-05-28
+authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["linux", "container", "workflow", "desktop"]
 +++

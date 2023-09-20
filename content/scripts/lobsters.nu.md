@@ -1,6 +1,7 @@
 +++
 title = "Nushell Script for Fuzzy Finding Lobster Posts"
 date = 2023-09-11
+authors = ["Soc Virnyl Estela"]
 +++
 ```nu
 #!/usr/bin/nu

@@ -1,6 +1,6 @@
 +++
 title = "Not Threads, Not Twitter. Come Join Us!"
-author = ["Soc Virnyl Estela"]
+authors = ["Soc Virnyl Estela"]
 description = "The Fediverse is growing. Join now!"
 date = 2023-07-18
 tags = ["social", "fediverse"]
@@ -30,7 +30,6 @@ You may have your reasons. It maybe valid e.g. because your fam uses Facebook, s
 communicate, but if you have the option to do so, do so now. These companies do not care much about your well-being
 since they designed these platform for clout-chasing, dopamine addiction, and a new culture of attention-seekers
 that are dumb to a point.
-
 
 ## Come Join the Fediverse! {#come-join-the-fediverse}
 

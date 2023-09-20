@@ -1,7 +1,7 @@
 +++
 title = "Juliaup is the next generation version manager for Julia"
 date = 2023-05-16
-draft = false
+authors = ["Soc Virnyl Estela"]
 +++
 
 

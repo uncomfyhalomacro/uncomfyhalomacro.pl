@@ -3,6 +3,7 @@ title = "Writing my own tree-sitter grammar"
 date = 2022-12-14
 updated = 2023-04-02
 description = "and for a good reason"
+authors = ["Soc Virnyl Estela"]
 +++
 
 [Tree-sitter] is an incremental parsing system that allows developers to add syntax highlighting and tree-sitter regex search for easy navigation.

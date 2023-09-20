@@ -1,6 +1,6 @@
 +++
 title = "Packaging Crystal Software for openSUSE"
-author = ["Soc Virnyl Estela"]
+authors = ["Soc Virnyl Estela"]
 description = "a tutorial on how to package Crystal software"
 date = 2023-07-31
 tags = ["crystal", "opensuse", "packaging"]

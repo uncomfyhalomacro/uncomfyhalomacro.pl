@@ -1,6 +1,7 @@
 +++
 title = "Time is a limited resource"
 date = 2023-05-21
+authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["epiphanies", "rants"]
 +++

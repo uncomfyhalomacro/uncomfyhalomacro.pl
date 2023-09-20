@@ -2,7 +2,7 @@
 title = "Genetically Modified Organisms" 
 description = "exploring GMO's and its effects to food security, and agriculture"
 date = 2023-05-29
-
+authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["lecture", "agriculture", "food-security"]
 +++

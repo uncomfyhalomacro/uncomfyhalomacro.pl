@@ -1,6 +1,7 @@
 +++
 title = "Setting up Julia LSP for Helix"
 date = 2023-05-19
+authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["setup", "editor", "helix", "julia", "lsp"]
 +++

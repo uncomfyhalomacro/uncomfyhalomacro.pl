@@ -2,6 +2,7 @@
 title = "Julia x Zellij"
 description = "a short post about how this workflow works"
 date = 2022-12-19
+authors = ["Soc Virnyl Estela"]
 +++
 
 ## Multiplexing workflows

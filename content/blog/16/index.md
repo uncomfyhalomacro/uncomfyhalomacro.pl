@@ -2,6 +2,7 @@
 title = "Journey to openSUSE"
 description = "here i share my linux journey"
 date = 2023-06-09
+authors = ["Soc Virnyl Estela"]
 draft = false
 +++
 

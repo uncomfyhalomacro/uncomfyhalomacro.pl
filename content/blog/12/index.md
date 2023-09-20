@@ -2,6 +2,7 @@
 title = "How should you choose a distro?"
 description = "a guide for new and old time users alike"
 date = 2023-05-12
+authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["linux", "technology", "workflow"]
 +++

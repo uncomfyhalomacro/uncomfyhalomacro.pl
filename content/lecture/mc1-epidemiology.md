@@ -1,6 +1,7 @@
 +++
 title = "Introduction to Epidemiology"
 date = 2023-05-27
+authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["biology", "science", "medicine", "notes"]
 

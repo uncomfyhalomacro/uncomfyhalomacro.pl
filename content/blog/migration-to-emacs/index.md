@@ -1,6 +1,6 @@
 +++
 title = "My Migration to Emacs"
-author = ["Soc Virnyl Estela"]
+authors = ["Soc Virnyl Estela"]
 description = "it's the way, and the life 😭"
 date = 2023-07-22
 tags = ["emacs", "editor", "zola"]
