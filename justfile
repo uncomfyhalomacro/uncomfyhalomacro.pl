@@ -37,3 +37,5 @@ local-publish: build
     git push --force -u origin pages
 
 do-all: update-theme publish
+
+do-all-local: update-theme local-publish
