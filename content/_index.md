@@ -13,15 +13,6 @@ such as Julia, and Rust. My other interests are biology, webtoons, and anime. I 
 biology and I majored in microbiology. For now, I am currently teaching at a private university. I am
 planning to shift my career related to tech but that needs some work for now. 
 
-## How to contact me
-
-You can contact me through my developer email:
-- *[uncomfy@uncomfyhalomacro.pl](mailto:uncomfy@uncomfyhalomacro.pl)*
-
-If you want to hire me for work, you can contact my professional email:
-
-- *[socvirnyl.estela@uncomfyhalomacro.pl](mailto:socvirnyl.estela@uncomfyhalomacro.pl)*
-
 # Other stuff
 
 If you want to know what I use and what I want to learn, read further down below.
@@ -51,6 +42,10 @@ things I haven't tried yet.
 - **Kanidm**. Can't. No time for that yet.
 - **Nushell**. Done. Mastery is what I am lacking
 - **Crystal**. No time. Need to do the others first.
+
+# Contact
+
+Feel free to email me at [socvirnyl.estela@uncomfyhalomacro.pl](socvirnyl.estela@uncomfyhalomacro.pl).
 
 # Closing Remarks
 

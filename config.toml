@@ -55,9 +55,12 @@ show_masto_social = true
 
 show_external_links = true
 
+number_to_show = 5
+
 external_links = [
+  { name="contact", description = "my contact email", permalink = "/#contact" },
   { name="notes", description = "my zettelkasten notes", permalink = "https://zettelkasten.uncomfyhalomacro.pl/" },
-  { name="curriculum vitae", description = "my curriculum vitae", permalink = "https://uncomfyhalomacro.pl/cv.pdf" }
+  { name="curriculum vitae", description = "my curriculum vitae", permalink = "/cv.pdf" },
 ]
 
 
