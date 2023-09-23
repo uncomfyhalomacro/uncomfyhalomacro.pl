@@ -45,7 +45,7 @@ things I haven't tried yet.
 
 # Contact
 
-Feel free to email me at [socvirnyl.estela@uncomfyhalomacro.pl](socvirnyl.estela@uncomfyhalomacro.pl).
+Feel free to email me at [uncomfy@uncomfyhalomacro.pl](uncomfy@uncomfyhalomacro.pl).
 
 # Closing Remarks
 
