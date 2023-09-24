@@ -41,6 +41,8 @@ highlight_themes_css = [
 [extra]
 # Put all your custom variables here
 
+favicon = "favicon.png"
+
 theme_color = "auto"
 
 author = "uncomfyhalomacro"
