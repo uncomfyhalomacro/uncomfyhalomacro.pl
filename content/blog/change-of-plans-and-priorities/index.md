@@ -2,6 +2,7 @@
 title = "Change of plans and priorities"
 description = "what it means for my future"
 date = 2023-09-26
+authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["lifestyle", "tech"]
 +++
