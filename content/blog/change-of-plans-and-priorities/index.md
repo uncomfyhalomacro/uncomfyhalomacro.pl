@@ -2,7 +2,7 @@
 title = "Change of plans and priorities"
 description = "what it means for my future"
 date = 2023-09-26
-updated = 2023-09-26T16:33:56Z
+updated = 2023-09-26T17:10:39Z
 authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["lifestyle", "tech"]
@@ -34,7 +34,9 @@ useful language to learn and can replace Go.
 
 # Now what should I learn
 
-Rust will always stay. Erlang will stay. Go is added. Python will be revisited.
+Rust will always stay. Erlang will stay. Go is added. Python will be revisited. And one database?
+I'm planning to at least learn one but never got the chance to. Possibly, Postgres or MySQL.
+
 
 ## Why Erlang?
 
@@ -53,4 +55,3 @@ Because blazingly 🚀🚀🚀 fast 😜
 Yes. I am going to watch Learn Go in 3 hours from a Humble Bundle I got last year. And then
 read Thorsten Ball's Writing an Interpreter in Go. I will check out Erlang's language reference
 too ☺️
-
