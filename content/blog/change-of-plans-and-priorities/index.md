@@ -2,13 +2,14 @@
 title = "Change of plans and priorities"
 description = "what it means for my future"
 date = 2023-09-26
+updated = 2023-09-26T16:33:56Z
 authors = ["Soc Virnyl Estela"]
 [taxonomies]
 tags = ["lifestyle", "tech"]
 +++
 
-As my selection of what to learn narrows, I think there will be a change of
-plans and priorities.
+As my selection of what to learn grows, I think there will be a change of
+plans and priorities. It's time to narrow down what is essential.
 
 Currently, I am learning Rust, and will do some Go. This added more and more of
 my to-do list of learning things.
