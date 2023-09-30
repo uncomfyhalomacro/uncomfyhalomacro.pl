@@ -61,7 +61,7 @@ number_to_show = 5
 
 external_links = [
   { name="contact", description = "my contact email", permalink = "/#contact" },
-  { name="notes", description = "my zettelkasten notes", permalink = "https://zettelkasten.uncomfyhalomacro.pl/" },
+  { name="notes", description = "my zettelkasten notes", permalink = "https://github.com/uncomfyhalomacro/useful-notes" },
   { name="curriculum vitae", description = "my curriculum vitae", permalink = "/cv.pdf" },
 ]
 
