@@ -1,6 +1,9 @@
 +++
 title = "I decided to move back to helix"
 date = 2023-09-30
+authors = ["Soc Virnyl Estela"]
+[taxonomies]
+tags = ["editor", "workflow"]
 +++
 
 Emacs is good but it's not for me.
