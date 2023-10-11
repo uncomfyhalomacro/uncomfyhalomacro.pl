@@ -1,7 +1,9 @@
 +++
 title = "Why Philippine Institutions Should Use FOSS"
 description = "raising awareness about Free and Open Source Software in the Filipino Nation"
+authors = ["Soc Virnyl Estela"]
 date = 2023-10-01
+updated = 2023-10-11
 [taxonomies]
 tags = ["education", "foss"]
 +++
@@ -57,12 +59,13 @@ OSS can still end up being malicious, it's just more *transparent*.
 There are many reasons Philippines should use OSS over proprietary. These usually
 comes from some of the following factors:
 
-- Money
+- Finances
 - Transparency
+- Privacy
 
 There are many others but we will focus on these for now.
 
-## Money
+## Finances
 
 Philippines is a poverty-stricken country (or corrupt-stricken?) and buying
 proprietary software will cost you a lot of your salary. Because of the
@@ -103,6 +106,19 @@ This transparency equates to increased trust of using software and allow
 Filipinos to use the software with the necessary trust they can offer to
 that software.
 
-# UNDER CONSTRUCTION
+## Privacy
+
+Because of the introduction of OSS to the masses, curiousity for why this
+software exists will allow Filipinos to define their privacy choices of
+their usage of software.
+
+There are many privacy-oriented alternatives against **unethical data collection**
+of popular software such as Zoom, and Instagram. With the presence of OSS software
+which promotes freedom and frowns on such practices, people are more likely
+to have more understanding what privacy is, and how important it is
+to respect someone's privacy.
+
+
+# Are there things you would like to add to this post?
 
 If you have more to add, please email me at [uncomfy@uncomfyhalomacro.pl](mailto:uncomfy@uncomfyhalomacro.pl).
