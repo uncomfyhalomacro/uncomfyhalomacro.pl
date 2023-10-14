@@ -39,7 +39,7 @@ If you want to know what I use and what I want to learn, read further down below
 
 # Contact
 
-Feel free to email me at [uncomfy@uncomfyhalomacro.pl](uncomfy@uncomfyhalomacro.pl).
+Feel free to email me at [contact@uncomfyhalomacro.pl](contact@uncomfyhalomacro.pl).
 
 # Closing Remarks
 
