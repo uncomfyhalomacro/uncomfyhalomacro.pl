@@ -32,10 +32,11 @@ If you want to know what I use and what I want to learn, read further down below
 
 ## Software and things I want to familiarize with
 
-- **Docker**. I have a bit of knowledge
-- **Podman**. I use distrobox
+- **Docker**. I have a bit of knowledge.
+- **Podman**. I use distrobox.
 - **Erlang**. I heard about it because of its impressive built-in concurrency support.
 - **Go**. Learn it since it's used from various companies.
+- **Crystal**. It seems like a good alternative for Go or Julia.
 
 # Contact
 
