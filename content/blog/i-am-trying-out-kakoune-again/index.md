@@ -2,6 +2,8 @@
 title = "I am trying out kakoune again"
 description = "testing out an editor that inspired helix"
 date = 2023-11-22
+[taxonomies]
+  tags = ["editor", "kakoune"]
 +++
 
 
