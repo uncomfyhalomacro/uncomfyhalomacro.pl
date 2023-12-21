@@ -47,11 +47,9 @@ theme_color = "auto"
 
 author = "uncomfyhalomacro"
 
-masto_url = "julialang.social"
+masto_url = "fosstodon.org"
 
 masto_username = "uncomfyhalomacro"
-
-twitter_username = "uncomfyhalo"
 
 show_masto_social = true
 
