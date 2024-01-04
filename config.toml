@@ -53,6 +53,11 @@ masto_username = "uncomfyhalomacro"
 
 show_masto_social = true
 
+show_site_attribution = true
+
+site_attribution_link = "https://creativecommons.org/licenses/by-sa/4.0/"
+site_attribution_title = "CC-BY-4.0"
+
 show_external_links = true
 
 number_to_show = 5
