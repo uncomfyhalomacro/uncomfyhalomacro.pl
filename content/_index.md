@@ -19,11 +19,10 @@ If you want to know what I use and what I want to learn, read further down below
 
 ## Software and tools I use daily
 
-- [Helix](https://helix-editor.com)
+- [Kakoune](https://github.com/mawww/kakoune)
 - [Zellij](https://zellij.dev)
 - [Foot](https://codeberg.org/dnkl/foot)
-- [Hyprland](https://hyprland.org) (Backup)
-- [RiverWM](https://github.com/riverwm/river) (Main)
+- [RiverWM](https://github.com/riverwm/river)
  
 ## Programming Languages I am really familiar with
 
@@ -40,7 +39,7 @@ If you want to know what I use and what I want to learn, read further down below
 
 # Contact
 
-Feel free to email me at [contact@uncomfyhalomacro.pl](contact@uncomfyhalomacro.pl).
+Feel free to email me at [contact@uncomfyhalomacro.pl](mailto:contact@uncomfyhalomacro.pl).
 
 # Closing Remarks
 
