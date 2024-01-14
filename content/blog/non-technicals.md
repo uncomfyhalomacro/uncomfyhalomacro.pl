@@ -2,6 +2,7 @@
 title = "Non-technicals, why am I not a purist, and other stuff"
 authors = ["Soc Virnyl Estela"]
 date = 2024-01-12
+updated = 2024-01-14
 [taxonomies]
   tags = ["epiphanies"]
 +++
@@ -133,7 +134,7 @@ One good example is the controversial issue of federating with Meta's
 I have mix-feelings with ActivityPub instances federating with Threads
 and there are a lot of people that actually do not like to federate with
 them[^metabadfediverse] [^fedipact]. I actually lean more of **not wanting
-to federate.
+to federate**.
 
 Other content creators are more or less pro-federation of Threads because
 some of their arguments are like these:
