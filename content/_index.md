@@ -18,7 +18,7 @@ to tech but that needs some work for now.
 I have a passion for technology and biology, hoping to build a career both
 as a bioinformatician, a technologist and a software engineer.
 
-As a science instructor at Misamis University, I teach biology courses to
+As a science instructor at private university, I teach biology courses to
 undergraduate students, using interactive and engaging methods to foster
 their curiosity and passion for science.
 
