@@ -8,10 +8,27 @@ template = "index.html"
 
 # About me
 
-I am Soc (aka ***uncomfy***) and welcome to my website! I like to discuss about Linux, Wayland, and various programming languages
-such as Julia, and Rust. My other interests are biology, webtoons, and anime. I have a bachelor's degree in
-biology and I majored in microbiology. For now, I am currently teaching at a private university. I am
-planning to shift my career related to tech but that needs some work for now. 
+I am Soc (aka ***uncomfy***) and welcome to my website! I like to discuss about
+Linux, Wayland, and various programming languages such as Julia, and Rust.
+
+I have a B.Sc. Biology, majoring in Microbiology. For now, I am currently
+teaching at a private university. I am planning to shift my career related
+to tech but that needs some work for now.
+
+I have a passion for technology and biology, hoping to build a career both
+as a bioinformatician, a technologist and a software engineer.
+
+As a science instructor at Misamis University, I teach biology courses to
+undergraduate students, using interactive and engaging methods to foster
+their curiosity and passion for science.
+
+I am a proud member of the openSUSE community, where I maintain 22+ packages
+that include tools for my organization. I have been involved in open source
+software development since 2020, starting with Debian as my first Linux
+distribution. I believe in the spirit of open source and its potential to
+advance scientific discovery and innovation. My goal is to pursue a career in
+software development and engineering or bioinformatics, where I can combine
+my expertise in microbiology and programming to solve real-world problems.
 
 # Other stuff
 
