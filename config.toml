@@ -60,13 +60,13 @@ site_attribution_title = "CC-BY-4.0"
 
 show_external_links = true
 
-number_to_show = 5
+number_to_show = 4
 
 external_links = [
+  { name="microbio cv", description = "microbiology cv/resume", permalink = "/microbio-cv.pdf" },
+  { name="tech cv", description = "technology cv/resume", permalink = "/tech-cv.pdf" },
   { name="contact", description = "my contact email", permalink = "/#contact" },
   { name="notes", description = "my zettelkasten notes", permalink = "https://github.com/uncomfyhalomacro/myjournal" },
-  { name="microbio cv", description = "Microbiology CV/Resume", permalink = "/microbio-cv.pdf" },
-  { name="tech cv", description = "Technology CV/Resume", permalink = "/tech-cv.pdf" },
 ]
 
 
