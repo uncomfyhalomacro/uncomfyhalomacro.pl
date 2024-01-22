@@ -30,6 +30,15 @@ advance scientific discovery and innovation. My goal is to pursue a career in
 software development and engineering or bioinformatics, where I can combine
 my expertise in microbiology and programming to solve real-world problems.
 
+I am a self-taught programmer. These are topics that interest me in terms of
+recency:
+
+- DevOps
+- compilers
+- functional programming
+- containers
+- packaging
+
 # Other stuff
 
 If you want to know what I use and what I want to learn, read further down below.
@@ -40,19 +49,19 @@ If you want to know what I use and what I want to learn, read further down below
 - [Zellij](https://zellij.dev)
 - [Foot](https://codeberg.org/dnkl/foot)
 - [RiverWM](https://github.com/riverwm/river)
+- Distrobox. A podman/docker frontend.
  
 ## Programming Languages I am really familiar with
 
 - [Julia](https://julialang.org)
 - [Rust](https://rust-lang.org)
+- Python
 
 ## Software and things I want to familiarize with
 
-- **Docker**. I have a bit of knowledge.
-- **Podman**. I use distrobox.
 - **Erlang**. I heard about it because of its impressive built-in concurrency support.
 - **Go**. Learn it since it's used from various companies.
-- **Crystal**. It seems like a good alternative for Go or Julia.
+- **Ansible**. Notable for DevOps.
 
 # Contact
 
