@@ -2,11 +2,26 @@
 title = "Calling Executables Outside Distrobox That Are From Another Distrobox"
 authors = ["Soc Virnyl Estela"]
 date = 2023-08-06
+updated = 2024-01-30
 tags = ["container", "distrobox", "podman"]
 draft = false
 [taxonomies]
   tags = ["container", "distrobox", "podman"]
 +++
+
+# Update
+
+This old post is outdated and requires a small update. To run an executable from another
+container (here we use distrobox, a frontend for podman or docker), you just need to run
+this command inside the desired container where you want to run the executable.
+
+```sh
+sudo ln /usr/bin/distrobox-host-exec /usr/local/bin/my-executable
+```
+
+Make sure that the `my-executable` was already `distrobox-export`ed to the host.
+
+# Old post
 
 To anyone that might have asked themselves
 
