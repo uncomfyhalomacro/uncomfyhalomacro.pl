@@ -2,7 +2,7 @@
 title = "Tools I use ever since"
 date = 2024-01-30
 authors = ["Soc Virnyl Estela"]
-draft = true
+draft = false
 +++
 
 # Editors
