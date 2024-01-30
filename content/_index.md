@@ -15,8 +15,8 @@ I have a B.Sc. Biology, majoring in Microbiology. For now, I am currently
 teaching at a private university. I am planning to shift my career related
 to tech but that needs some work for now.
 
-I have a passion for technology and biology, hoping to build a career both
-as a bioinformatician, a technologist and a software engineer.
+I have a passion for technology and biology, and currently building a career
+in software engineering.
 
 As a science instructor at a private university, I teach biology courses to
 undergraduate students, using interactive and engaging methods to foster
@@ -38,6 +38,8 @@ recency:
 - functional programming
 - containers
 - packaging
+
+*Currently learning C, and Go.*
 
 # Other stuff
 
