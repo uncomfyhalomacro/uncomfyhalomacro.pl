@@ -33,13 +33,13 @@ my expertise in microbiology and programming to solve real-world problems.
 I am a self-taught programmer. These are topics that interest me in terms of
 recency:
 
+- web development
 - DevOps
 - compilers
 - functional programming
 - containers
-- packaging
 
-*Currently learning C, and Go.*
+*Currently learning C, Go, SvelteKit, and Dart.*
 
 # Other stuff
 
