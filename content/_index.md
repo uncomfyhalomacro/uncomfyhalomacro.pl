@@ -11,16 +11,14 @@ template = "index.html"
 I am Soc (aka ***uncomfy***) and welcome to my website! I like to discuss about
 Linux, Wayland, and various programming languages such as Julia, and Rust.
 
-I have a B.Sc. Biology, majoring in Microbiology. For now, I am currently
-teaching at a private university. I am planning to shift my career related
-to tech but that needs some work for now.
+I am planning to shift my career related to tech but that needs some work for now.
 
 I have a passion for technology and biology, and currently building a career
-in software engineering.
+in software development and engineering.
 
-As a science instructor at a private university, I teach biology courses to
-undergraduate students, using interactive and engaging methods to foster
-their curiosity and passion for science.
+Currently, I am a science instructor at a private university to make ends
+meet, I teach biology courses to undergraduate students, using interactive
+and engaging methods to foster their curiosity and passion for science.
 
 I am a proud member of the openSUSE community, where I maintain 22+ packages
 that include tools for my organization. I have been involved in open source
@@ -38,8 +36,6 @@ recency:
 - compilers
 - functional programming
 - containers
-
-*Currently learning C, Go, SvelteKit, and Dart.*
 
 # Other stuff
 
