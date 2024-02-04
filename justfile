@@ -3,7 +3,7 @@
 update-theme:
     git submodule update --recursive --remote --init
     git add themes/jera
-    git commit -s -m 'update theme'
+    git commit -s
 
 check:
     zola check
@@ -24,7 +24,7 @@ publish: build
     git commit -m "update site page for ${CI_COMMIT_SHA:-}"
     git push --force -u origin main
 
-local-publish: build
+local-publish: update-theme build
     #!/usr/bin/env bash
     set -euxo pipefail
     export CI_COMMIT_SHA="$(git rev-parse HEAD)"
