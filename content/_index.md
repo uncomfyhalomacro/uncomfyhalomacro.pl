@@ -1,6 +1,6 @@
 +++
-title = "uncomfy's tavern and screams"
-description = "sometimes i even wonder why i made this... oh well 🤷"
+title = "Soc Virnyl Estela's website"
+description = "🧑‍🔬 mostly about tech and biology. i have a love and hate relationship when it comes to software."
 sort_by = "weight"
 insert_anchor_links = "right"
 template = "index.html"
@@ -8,27 +8,19 @@ template = "index.html"
 
 # About me
 
-I am Soc (aka ***uncomfy***) and welcome to my website! I like to discuss about
+I'm Soc Virnyl Estela (aka ***uncomfyhalomacro***). I like to discuss about
 Linux, Wayland, and various programming languages such as Julia, and Rust.
 
-I am planning to shift my career related to tech but that needs some work for now.
+I'm responsible for the Rust rewrite of [OBS Service Cargo
+Vendor](https://github.com/openSUSE/obs-service-cargo_vendor).
 
-I have a passion for technology and biology, and currently building a career
-in software development and engineering.
+I'm a package maintainer for the [openSUSE](https://get.opensuse.org) community,
+mostly Wayland and Rust software.
 
-Currently, I am a science instructor at a private university to make ends
-meet, I teach biology courses to undergraduate students, using interactive
-and engaging methods to foster their curiosity and passion for science.
+My main background is biology but I also have exposure to computer science when
+I was in high school.
 
-I am a proud member of the openSUSE community, where I maintain 22+ packages
-that include tools for my organization. I have been involved in open source
-software development since 2020, starting with Debian as my first Linux
-distribution. I believe in the spirit of open source and its potential to
-advance scientific discovery and innovation. My goal is to pursue a career in
-software development and engineering or bioinformatics, where I can combine
-my expertise in microbiology and programming to solve real-world problems.
-
-I am a self-taught programmer. These are topics that interest me in terms of
+I'm a self-taught programmer. These are topics that interest me in terms of
 recency:
 
 - databases
@@ -36,6 +28,12 @@ recency:
 - compilers
 - functional programming
 - containers
+
+Most of my projects are now hosted either
+on [Sourcehut](https://sr.ht/~uncomfy) and
+[Codeberg](https://codeberg.org/uncomfyhalomacro).
+
+The source of this website is available [at codeberg.org](https://codeberg.org/uncomfyhalomacro/pages).
 
 # Other stuff
 
