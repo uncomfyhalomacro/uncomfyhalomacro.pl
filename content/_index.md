@@ -31,7 +31,7 @@ my expertise in microbiology and programming to solve real-world problems.
 I am a self-taught programmer. These are topics that interest me in terms of
 recency:
 
-- web development
+- databases
 - DevOps
 - compilers
 - functional programming
