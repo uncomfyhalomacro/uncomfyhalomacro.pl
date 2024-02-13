@@ -2,13 +2,14 @@
 title = "Technology is the cause of all the braindrain"
 authors = ["Soc Virnyl Estela"]
 date = 2024-02-12
+update = 2024-02-13
 +++
 
 I haven't finished reading [Amusing ourselves to
 death](https://en.wikipedia.org/wiki/Amusing_Ourselves_to_Death).
 But it is kind of obvious that the result of technology's effects on youth
 and how tech companies pursue this abuse of cocktail concoction of digital
-addiction.
+addiction are "zombification" of people today.
 
 <!-- more -->
 
