@@ -31,7 +31,7 @@ render_emoji = true
 
 extra_syntaxes_and_themes = ["static/assets/highlighting/catppuccin"]
 
-highlight_theme = "gruvbox-light"
+highlight_theme = "css"
 
 highlight_themes_css = [
   { theme = "Catppuccin-mocha", filename = "syntax-theme-dark.css" },
