@@ -1,6 +1,7 @@
 +++
 title = "Kakoune is polished. But..."
 date = 2024-05-12
+draft = true
 [taxonomies]
 tags = ["kakoune", "editor"]
 +++
@@ -28,4 +29,4 @@ what". It's like how the link to this blog post was titled
 ["Detractors Need to Shut Up! Vim is the Yoda of the Dev
 Community"](https://analyticsindiamag.com/detractors-need-to-shut-up-vim-is-the-yoda-of-dev-community/).
 
-And yes, Vim speaks like Yoda but with terribly inconsistence.
+And yes, Vim speaks like Yoda but with terrible inconsistency.
