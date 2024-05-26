@@ -3,7 +3,7 @@
 update-theme:
     git submodule update --recursive --remote --init
     git add themes/jera
-    git commit -s -m "update theme"
+    git commit -s -m "update theme" || true
 
 check:
     zola check
