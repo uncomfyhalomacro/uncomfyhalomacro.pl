@@ -12,7 +12,7 @@ build:
     mkdir -p templates/
     zola build
 
-publish: build
+publish: update-theme build
     #!/usr/bin/env bash
     set -euxo pipefail
     cp .domains public/.domains
@@ -24,7 +24,7 @@ publish: build
     git commit -m "update site page for ${CI_COMMIT_SHA:-}"
     git push --force -u origin main
 
-local-publish: build
+local-publish: update-theme build
     #!/usr/bin/env bash
     set -euxo pipefail
     export CI_COMMIT_SHA="$(git rev-parse HEAD)"
