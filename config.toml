@@ -29,13 +29,13 @@ highlight_code = true
 
 render_emoji = true
 
-extra_syntaxes_and_themes = ["static/assets/highlighting/catppuccin"]
+extra_syntaxes_and_themes = ["static/assets/highlighting/gruvbox/"]
 
-highlight_theme = "gruvbox-light"
+highlight_theme = "css"
 
 highlight_themes_css = [
-  { theme = "Catppuccin-mocha", filename = "syntax-theme-dark.css" },
-  { theme = "Catppuccin-latte", filename = "syntax-theme-light.css" },
+  { theme = "gruvbox-dark", filename = "syntax-theme-dark.css" },
+  { theme = "gruvbox-light", filename = "syntax-theme-light.css" },
 ]
 
 [extra]
