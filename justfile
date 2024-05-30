@@ -15,9 +15,11 @@ build:
 publish: update-theme build
     #!/usr/bin/env bash
     set -euxo pipefail
-    cp .domains public/.CNAME
+    sudo chown $USER1:$USER1 -R public/
+    cp .domains public/CNAME
     cp LICENSE public/LICENSE
-    scp -r public/* ${USER}@${IP_ADDRESS}:/var/www/uncomfyhalomacro.pl/
+    ssh ${USER2}@${IP_ADDRESS} 'rm -rfv /var/www/uncomfyhalomacro.pl/*'
+    scp -r public/* ${USER2}@${IP_ADDRESS}:/var/www/uncomfyhalomacro.pl/
 
 local-publish: update-theme build
 
