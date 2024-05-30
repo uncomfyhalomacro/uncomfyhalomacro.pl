@@ -21,5 +21,3 @@ publish: update-theme build
     rsync -a public/* ${USER2}@${IP_ADDRESS}:/var/www/uncomfyhalomacro.pl/
 
 do-all: update-theme publish
-
-do-all-local: update-theme local-publish
