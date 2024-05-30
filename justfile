@@ -20,4 +20,3 @@ publish: update-theme build
     ssh ${USER2}@${IP_ADDRESS} 'rm -rfv /var/www/uncomfyhalomacro.pl/*'
     rsync -a public/* ${USER2}@${IP_ADDRESS}:/var/www/uncomfyhalomacro.pl/
 
-do-all: update-theme publish
