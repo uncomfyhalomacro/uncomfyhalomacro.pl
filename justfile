@@ -19,7 +19,7 @@ publish: update-theme build
     cp .domains public/CNAME
     cp LICENSE public/LICENSE
     ssh ${USER2}@${IP_ADDRESS} 'rm -rfv /var/www/uncomfyhalomacro.pl/*'
-    scp -r public/* ${USER2}@${IP_ADDRESS}:/var/www/uncomfyhalomacro.pl/
+    rsync -a public/* ${USER2}@${IP_ADDRESS}:/var/www/uncomfyhalomacro.pl/
 
 local-publish: update-theme build
 
