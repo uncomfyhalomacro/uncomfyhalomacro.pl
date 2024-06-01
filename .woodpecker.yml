@@ -19,5 +19,3 @@ steps:
       - ssh-keyscan -H "$${TARGET_SOURCE}" > ~/.ssh/known_hosts
       - just publish
     secrets: [ user2, target_source, remote_outpath, mail, hashes]
-
-runs_on: [ success, failure ]
