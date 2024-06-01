@@ -2,8 +2,8 @@ labels:
   platform: linux/amd64
 
 when:
-  - event: [push, tag]
-    branch: main
+  - branch: main
+    event: push
 
 steps:
   publish:
