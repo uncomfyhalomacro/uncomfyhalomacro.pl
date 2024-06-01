@@ -24,6 +24,6 @@ publish: update-theme build
     #!/usr/bin/env bash
     set -euxo pipefail
     cp LICENSE public/LICENSE
-    ssh ${USER2}@${IP_ADDRESS} 'rm -rfv "${OUTPATH}/*"'
+    ssh ${USER2}@${IP_ADDRESS} 'rm -rfv "${OUTPATH}/*"' > /dev/null
     rsync -a public/* "${USER2}@${IP_ADDRESS}:${OUTPATH}"
 
