@@ -2,8 +2,9 @@ labels:
   platform: linux/amd64
 
 when:
-  - branch: main
-    event: push
+  event: push
+  branch:
+    - main
 
 steps:
   publish:
