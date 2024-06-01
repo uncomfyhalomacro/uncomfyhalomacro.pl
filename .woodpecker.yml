@@ -10,11 +10,11 @@ pipeline:
       event: [push, tag]
       branch: deploy-branch
     image: opensuse/tumbleweed:latest
-    secrets: [ PAGES_ACCESS_TOKEN, MAIL ]
     commands:
-      - zypper --non-interactive install just zola git
+      - zypper --non-interactive install just zola git rsync openssh
       - git config --global init.defaultBranch main
       - git config --global user.name "${CI_REPO_OWNER}"
       - git config --global user.email "${MAIL}"
       - just publish
+    secrets: [ user2, target_source, remote_outpath, mail]
 runs_on: [ success, failure ]
