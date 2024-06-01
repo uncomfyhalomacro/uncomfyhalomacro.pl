@@ -5,7 +5,7 @@ steps:
   publish:
     when:
       event: [push, tag]
-      branch: deploy-branch
+      branch: main
     image: opensuse/tumbleweed:latest
     environment:
     commands:
