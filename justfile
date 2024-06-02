@@ -18,12 +18,12 @@ local-publish: update-theme build
     sudo chown $USER1:$USER1 -R public/
     cp LICENSE public/LICENSE
     ssh ${USER2}@${IP_ADDRESS} 'rm -rfv "${OUTPATH}/*"'
-    rsync -a public/* "${USER2}@${IP_ADDRESS}:${OUTPATH}"
+    rsync --rsh="ssh -o StrictHostKeyChecking=no" -aP public/* "${USER2}@${IP_ADDRESS}:${OUTPATH}" > /dev/null
 
 publish: update-theme build
     #!/usr/bin/env bash
     set -euxo pipefail
     cp LICENSE public/LICENSE
     ssh ${USER2}@${IP_ADDRESS} 'rm -rfv "${OUTPATH}/*"' > /dev/null
-    rsync -a public/* "${USER2}@$${IP_ADDRESS}:${OUTPATH}" > /dev/null
+    rsync --rsh="ssh -o StrictHostKeyChecking=no" -aP public/* "${USER2}@${IP_ADDRESS}:${OUTPATH}" > /dev/null
 
