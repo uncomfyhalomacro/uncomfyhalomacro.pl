@@ -12,6 +12,11 @@ build:
     mkdir -p templates/
     zola build
 
+webring:
+    echo "{% macro openring() %}" | tee templates/macros/in.html > /dev/null
+    openring -n 6 -S webring-list -t in.html | tee -a templates/macros/in.html > /dev/null
+    echo "{% endmacro %}" | tee -a templates/macros/in.html > /dev/null
+
 local-publish: update-theme build
     #!/usr/bin/env bash
     set -euxo pipefail
