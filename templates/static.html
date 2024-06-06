@@ -10,6 +10,7 @@
           ><i class="fa-sharp fa-solid fa-rss" alt="atom/rss"></i></a
       ></span>
     </h1>
+    <blockquote style="text-align:center;">{{ section.description | safe }}</blockquote>
     {{ section.content | safe}}
     {{ footer::footer() }}
   </div>
