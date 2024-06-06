@@ -65,8 +65,6 @@ show_external_links = true
 external_links = [
   { name="microbio cv", description = "microbiology cv/resume", permalink = "/microbio-cv.pdf" },
   { name="tech cv", description = "technology cv/resume", permalink = "/tech-cv.pdf" },
-  { name="atuin server", description = "atuin server database", permalink = "https://atuin.uncomfyhalomacro.pl" },
-  { name="forgejo", description = "my own forgejo instance (experimental)", permalink = "https://forgejo.uncomfyhalomacro.pl" },
+  { name="atuin server", description = "atuin server database (at your own risk. keep backups)", permalink = "https://atuin.uncomfyhalomacro.pl" },
 ]
-
 
