@@ -4,11 +4,6 @@
     <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
     <h1 style="text-align: center">
       {{ section.title | safe }}
-      <span>
-        {% set rss_path=section.path ~ "atom.xml" %}<a
-          href="{{ get_url(path=rss_path, trailing_slash=false) }}"
-          ><i class="fa-sharp fa-solid fa-rss" alt="atom/rss"></i></a
-      ></span>
     </h1>
     <blockquote style="text-align:center;">{{ section.description | safe }}</blockquote>
     {{ section.content | safe}}
