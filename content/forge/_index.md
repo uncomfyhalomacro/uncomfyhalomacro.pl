@@ -1,8 +1,7 @@
 +++
 title = "Forgejo"
 description = "We comfy. We forge 🧰"
-template = "index.html"
-insert_anchor_links = "right"
+template = "static.html"
 +++
 
 I currently have a <https://forgejo.uncomfyhalomacro.pl> instance.
