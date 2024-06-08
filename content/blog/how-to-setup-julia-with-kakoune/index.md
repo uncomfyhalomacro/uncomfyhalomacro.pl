@@ -15,10 +15,11 @@ editor lmao. So I'm just going to write it here to help others out a bit.
 [Kakoune](https://github.com/mawww/kakoune) is a modal editor that tries to
 be better than Vim. It reverses the action-verb syntax of Vim e.g. `dw` for
 delete word in Vim, `wd` in Kakoune.  And it also removes some inconsistencies
-of the Vim editor when it comes to other functions.
+of the Vim editor when it comes to other functions of which I won't discuss
+and which you have to find out yourself.
 
 The editor also has multi-cursors which is a controversial topic among
-terminal editor enthusiasts. But it's a good fit for Kakoune because it
+terminal editor enthusiasts. But it's a good fit for Kakoune because of its
 "haptic" feedback or more accurately visual feedback that shows a selection
 before we can do any action.
 
