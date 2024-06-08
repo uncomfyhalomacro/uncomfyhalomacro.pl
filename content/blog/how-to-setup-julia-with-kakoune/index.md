@@ -272,3 +272,10 @@ Hover:
 
 Snippets and Completions:
 ![Completions](./Screenshot-0608211948.webp)
+
+# Versions of software used at the time of writing
+
+- Julia v1.10.4
+- Rust 1.78
+- Kakoune v2023.08.05
+- Kakoune LSP v17.0.1
