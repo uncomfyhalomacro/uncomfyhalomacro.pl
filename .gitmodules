@@ -1,4 +1,4 @@
-[submodule "themes/jera"]
-	path = themes/jera
-	url = https://codeberg.org/uncomfyhalomacro/jera
+[submodule "themes/gruvbox-v"]
+	path = themes/gruvbox-v
+	url = https://codeberg.org/uncomfyhalomacro/gruvbox-v
 	branch = main
