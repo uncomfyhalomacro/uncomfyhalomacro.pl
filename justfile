@@ -2,7 +2,7 @@
 
 update-theme:
     git submodule update --recursive --remote --init
-    git add themes/jera
+    git add themes/gruvbox-v
     git commit -s -m "update theme" || true
 
 check:
