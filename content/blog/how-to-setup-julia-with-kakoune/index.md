@@ -51,7 +51,7 @@ The editor also has its own configuration language called kakscript. Although
 it's better for you to explore what it is since it will be discussed in
 this post.
 
-This editor is highly opinionated and many mixed opinions among Vimmers.
+This editor is highly opinionated and has many mixed opinions among Vimmers.
 I don't consider myself a Vim expert nor a Kakoune expert but I have experienced
 using many editors since the start of COVID-19.
 
