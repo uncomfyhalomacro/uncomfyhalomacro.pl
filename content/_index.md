@@ -61,7 +61,9 @@ If you want to know what I use and what I want to learn, read further down below
 
 # Contact
 
-Feel free to email me at [contact@uncomfyhalomacro.pl](mailto:contact@uncomfyhalomacro.pl).
+Feel free to email me at [contact@uncomfyhalomacro.pl](mailto:contact@uncomfyhalomacro.pl)([gpg](/public.txt)).
+
+You can also contact me through Signal through this [link](https://signal.me/#eu/2HXmicUGauVas7bp_wTU2Qwg08Ldza_K4uOt3emtYnAs3Av6kCpA-6WD9CytRr7N).
 
 # Closing Remarks
 
