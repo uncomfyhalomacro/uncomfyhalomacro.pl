@@ -11,17 +11,14 @@ template = "index.html"
 I'm Soc Virnyl Estela (aka ***uncomfyhalomacro***). I like to discuss about
 Linux, Wayland, and various programming languages such as Julia, and Rust.
 
-I'm responsible for the Rust rewrite of [OBS Service Cargo
-Vendor](https://github.com/openSUSE/obs-service-cargo_vendor).
+I'm a package maintainer for the [openSUSE](https://get.opensuse.org)
+community, mostly Wayland and Rust software.
 
-I'm a package maintainer for the [openSUSE](https://get.opensuse.org) community,
-mostly Wayland and Rust software.
+My main background is biology but I also have exposure to computer science
+when I was in high school.
 
-My main background is biology but I also have exposure to computer science when
-I was in high school.
-
-I'm a self-taught programmer. These are topics that interest me in terms of
-recency:
+I'm a self-taught programmer. These are topics that interest me in terms
+of recency:
 
 - databases
 - DevOps
@@ -33,7 +30,8 @@ Most of my projects are now hosted either
 on [Sourcehut](https://sr.ht/~uncomfy) and
 [Codeberg](https://codeberg.org/uncomfyhalomacro).
 
-The source of this website is available [at codeberg.org](https://codeberg.org/uncomfyhalomacro/pages).
+The source of this website is available [at
+codeberg.org](https://codeberg.org/uncomfyhalomacro/pages).
 
 # Other stuff
 
