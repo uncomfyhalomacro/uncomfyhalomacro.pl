@@ -18,7 +18,7 @@ webring:
     openring -n 6 -S webring-list -t in.html | tee -a templates/macros/in.html > /dev/null
     echo "{% endmacro %}" | tee -a templates/macros/in.html > /dev/null
 
-local-publish: update-theme build
+local-publish: update-theme webring build
     #!/usr/bin/env bash
     set -euxo pipefail
     sudo chown $USER1:$USER1 -R public/
@@ -26,7 +26,7 @@ local-publish: update-theme build
     ssh ${USER2}@${IP_ADDRESS} 'rm -rfv "${OUTPATH}/*"'
     rsync --rsh="ssh -o StrictHostKeyChecking=no" -aP public/* "${USER2}@${IP_ADDRESS}:${OUTPATH}" > /dev/null
 
-publish: update-theme build
+publish: update-theme webring build
     #!/usr/bin/env bash
     set -euxo pipefail
     cp LICENSE public/LICENSE
