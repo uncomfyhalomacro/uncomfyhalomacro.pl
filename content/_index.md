@@ -1,5 +1,5 @@
 +++
-title = "Soc Virnyl Estela's website"
+title = "uncomfyhalomacro.pl"
 description = "🧑‍🔬 mostly about tech and biology. i have a love and hate relationship when it comes to software."
 sort_by = "update_date"
 insert_anchor_links = "right"
