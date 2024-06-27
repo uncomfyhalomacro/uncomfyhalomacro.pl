@@ -1,0 +1,24 @@
+RewriteEngine On
+# RewriteBase /
+
+# Redirect to www.example.com if necessary
+# RewriteCond %{HTTP_HOST} !^www\.example\.com$ [NC]
+# RewriteRule ^(.*)$ http://www.example.com/$1 [R=301,L]
+
+# Serve 404 page when a file or directory is not found
+ErrorDocument 404 /404.html
+
+# Serve the requested resource as .html if it exists
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html   
+
+# Serve the requested resource directly if it exists
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^ - [L]
+
+# Serve index.html if it exists, otherwise rewrite to the file
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html

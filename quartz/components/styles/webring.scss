@@ -1,0 +1,22 @@
+div.webring {
+  text-align: left;
+  margin-bottom: 4rem;
+
+  & > h3 {
+    font-size: 1rem;
+  }
+
+  & > ul {
+    margin: 0.5rem 0;
+    max-height: 8rem;
+    transition: max-height 0.35s ease;
+    list-style: none;
+    padding: 0px;
+    gap: 1rem;
+    margin-top: -1rem;
+    & > li {
+        margin-top: 0.55rem;
+        line-height: 1.5rem;
+    }
+  }
+}
