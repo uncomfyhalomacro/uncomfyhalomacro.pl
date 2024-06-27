@@ -1,5 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { pathToRoot } from "../util/path"
+
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -10,9 +12,6 @@ export const sharedPageComponents: SharedLayout = {
     Component.Search(),
   ],
   footer: Component.Footer({
-    links: {
-      "About Me": "https://uncomfyhalomacro.pl",
-    },
   }),
 }
 
@@ -24,7 +23,7 @@ export const defaultContentPageLayout: PageLayout = {
          drag: true, // whether to allow panning the view around
          zoom: true, // whether to allow zooming in and out
          depth: 1, // how many hops of notes to display
-         scale: 2.1, // default view scale
+         scale: 1.2, // default view scale
          repelForce: 0.5, // how much nodes should repel each other
          centerForce: 1.0, // how much force to use when trying to center the nodes
          linkDistance: 30, // how long should the links be by default?

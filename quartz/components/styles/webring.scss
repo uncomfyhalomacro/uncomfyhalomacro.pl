@@ -1,6 +1,6 @@
 div.webring {
   text-align: left;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
 
   & > h3 {
     font-size: 1rem;
@@ -8,7 +8,7 @@ div.webring {
 
   & > ul {
     margin: 0.5rem 0;
-    max-height: 8rem;
+    max-height: 12rem;
     transition: max-height 0.35s ease;
     list-style: none;
     padding: 0px;
