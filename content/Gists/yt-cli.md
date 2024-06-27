@@ -7,8 +7,8 @@ date: 2024-03-05
 #!/usr/bin/nu
 alias MENU = fuzzel -d
 
-let subbed_channels = [ 
-  
+let subbed_channels = [
+
  chrisbiscardi
  Coderized
  CodeAesthetic
@@ -19,7 +19,7 @@ let subbed_channels = [
  freecodecamp
  LearnLinuxTV
  LowLevelLearning
- niccoloveslinux 
+ niccoloveslinux
  NoBoilerplate
  _noisecode
  RustVideos
@@ -54,11 +54,10 @@ for $video_title in $video_titles --numbered {
  }
  if ($chosen_video_title in $video_titles) and ($chosen_video_title in $video_title.item) {
   notify-send --icon mpv --app-name mpv $"Opening '($video_title.item)' in mpv"
-  let ytflags = "(mp4,webm)[height<?1080]+bestaudio/best"  
+  let ytflags = "(mp4,webm)[height<?1080]+bestaudio/best"
   setsid /bin/sh -c $'mpv --slang=en --ytdl-raw-options=ignore-config=,sub-lang=en,write-auto-sub= --ytdl-format="($ytflags)" --no-fs "https://youtube.com/watch?v=($video_hashes | get $video_title.index)"'
   sleep 0.3sec
   exit 0
  }
 }
 ```
-

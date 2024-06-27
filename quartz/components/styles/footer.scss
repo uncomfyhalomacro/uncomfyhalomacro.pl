@@ -13,14 +13,14 @@ footer {
     margin-top: -1rem;
   }
   img {
-      height: 40px;
-      width: 40px;
-      background-color: var(--bg);
+    height: 40px;
+    width: 40px;
+    background-color: var(--bg);
   }
   a {
-      padding-right: 1rem;
+    padding-right: 1rem;
   }
-  a.withicon:hover{
-      filter: drop-shadow(4px 4px 50px #FFFFFF) contrast(200%);
+  a.withicon:hover {
+    filter: drop-shadow(4px 4px 50px #ffffff) contrast(200%);
   }
 }

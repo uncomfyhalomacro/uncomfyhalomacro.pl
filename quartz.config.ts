@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: "zettel.uncomfyhalomacro.pl",
-    ignorePatterns: ["private", "templates", ".obsidian", ".zk",],
+    ignorePatterns: ["private", "templates", ".obsidian", ".zk"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "typeof",

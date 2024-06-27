@@ -36,7 +36,7 @@ export default (() => {
         <meta property="og:width" content="1200" />
         <meta property="og:height" content="675" />
         <link rel="icon" href={iconPath} />
-        <script src="/static/bannedReferrers.js"/>
+        <script src="/static/bannedReferrers.js" />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         {css.map((href) => (

@@ -18,7 +18,7 @@ if (ls $env.CACHE_PATH | is-empty) or (ls $env.CACHE_PATH | get -i size | any { 
     http get "https://lobste.rs/newest.rss"   | save -f $env.RECENT_RSS
     http get "https://lobste.rs/comments.rss" | save -f $env.COMMENTS_RSS
   }
-} else if (ls $env.CACHE_PATH | get -i modified | all { |i| $i < (date now) } ) { 
+} else if (ls $env.CACHE_PATH | get -i modified | all { |i| $i < (date now) } ) {
     http get "https://lobste.rs/rss"          | save -f $env.ACTIVE_RSS
     http get "https://lobste.rs/newest.rss"   | save -f $env.RECENT_RSS
     http get "https://lobste.rs/comments.rss" | save -f $env.COMMENTS_RSS
@@ -26,7 +26,7 @@ if (ls $env.CACHE_PATH | is-empty) or (ls $env.CACHE_PATH | get -i size | any { 
 
 let section = ($sections | to text | str trim | MENU -p "choose lobsters section>")
 let active_list                 = ( open --raw $env.ACTIVE_RSS   | query xml //item | get //item )
-let comment_list               = ( open --raw $env.COMMENTS_RSS | query xml //item | get //item ) 
+let comment_list               = ( open --raw $env.COMMENTS_RSS | query xml //item | get //item )
 let recent_list                 = ( open --raw $env.RECENT_RSS   | query xml //item | get //item )
 
 

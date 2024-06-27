@@ -12,13 +12,13 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <div class="webring">
-        <h3>
-          Webring
-        </h3>
+        <h3>Webring</h3>
         <ul class="overflow">
           {Object.entries(links).map(([text, link]) => (
             <li>
-              <a href={link} target="_blank">{text}</a>
+              <a href={link} target="_blank">
+                {text}
+              </a>
             </li>
           ))}
         </ul>

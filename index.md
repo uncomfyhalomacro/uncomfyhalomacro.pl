@@ -5,7 +5,7 @@ date: 2024-06-27
 
 # Introduction
 
-I'm Soc Virnyl Estela (aka ***uncomfyhalomacro***). I like to discuss about
+I'm Soc Virnyl Estela (aka **_uncomfyhalomacro_**). I like to discuss about
 Linux, Wayland, and various programming languages such as Julia, and Rust.
 
 I'm a package maintainer for the [openSUSE](https://get.opensuse.org)
@@ -31,7 +31,7 @@ on [Sourcehut](https://sr.ht/~uncomfy) and
 - [Foot](https://codeberg.org/dnkl/foot)
 - [RiverWM](https://github.com/riverwm/river)
 - Distrobox. A podman/docker frontend.
- 
+
 ## Programming Languages I am really familiar with
 
 - [Julia](https://julialang.org)
