@@ -15,8 +15,8 @@ steps:
       - git config --global user.name "${CI_REPO_OWNER}"
       - git config --global user.email "${MAIL}"
       - mkdir -p ~/.ssh
-      - install -m 600 -D /dev/nul ~/.ssh/id_private
+      - install -m 600 -D /dev/null ~/.ssh/id_private
       - echo "$${HASHES}" > ~/.ssh/id_private
       - ssh-keyscan -H "$${TARGET_SOURCE}" > ~/.ssh/known_hosts
       - just publish
-    secrets: [ user2, target_source, remote_outpath, mail, hashes]
+    secrets: [ target_source, mail, hashes, pages_access_token]
