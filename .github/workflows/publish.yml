@@ -24,8 +24,11 @@ jobs:
         just webring
     - name: Generate static site
       run: |
-        git submodule update --init --recursive
-        git submodule foreach git pull
+        rm -rf themes/
+        mkdir -p themes/
+        pushd themes/
+        git clone --depth 1 https://codeberg.org/uncomfyhalomacro/gruvbox-v
+        popd
         just build
     - name: Publish static site
       run: |
