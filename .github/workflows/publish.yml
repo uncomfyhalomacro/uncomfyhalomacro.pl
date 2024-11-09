@@ -7,7 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     container: opensuse/tumbleweed:latest
     env:
-      PAGES_BRANCH: gh-pages
       TOKEN: ${{ secrets.TOKEN }}
     steps:
     - name: Checkout
