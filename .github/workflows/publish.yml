@@ -1,0 +1,42 @@
+name: Publish
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/main'
+    container: opensuse/tumbleweed:latest
+    env:
+      PAGES_BRANCH: gh-pages
+      TOKEN: ${{ secrets.TOKEN }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install dependencies and Rust
+      run: |
+        zypper --non-interactive in zola just
+        rustup default stable
+        rustup update
+    - name: Install openring-rs
+      run: |
+        cargo install --git https://github.com/lukehsiao/openring-rs
+    - name: Generate openring
+      run: |
+        export PATH="${PATH}:${HOME}/.cargo/bin"
+        just webring
+    - name: Generate static site
+      run: |
+        just build
+    - name: Publish static site
+      run: |
+        export CI_COMMIT_SHA="$(git rev-parse HEAD)"
+        cp LICENSE public/LICENCE
+        pushd public
+        git init
+        git remote add origin "https://${TOKEN}@github.com/uncomfyhalomacro.pl.git"
+        git add -A
+        git commit -m "update site page for ${CI_COMMIT_SHA}"
+        git push --force -u origin gh-pages
+
+
