@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     container: opensuse/tumbleweed:latest
     env:
-      TOKEN: ${{ secrets.TOKEN }}
+      TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
     - name: Checkout
       uses: actions/checkout@v4
