@@ -2,7 +2,7 @@
 
 update-theme:
     git submodule update --recursive --remote --init
-    git add themes/gruvbox-v
+    git add themes/jera
     git commit -s -m "update theme" || true
 
 check:
@@ -12,24 +12,32 @@ build:
     mkdir -p templates/
     zola build
 
-webring:
-    mkdir -p templates/macros/
-    echo "{% macro openring() %}" | tee templates/macros/in.html > /dev/null
-    openring --verbose -n 6 -S webring-list -t in.html | tee -a templates/macros/in.html > /dev/null
-    echo "{% endmacro %}" | tee -a templates/macros/in.html > /dev/null
-
-local-publish: update-theme webring build
+publish: update-theme build
     #!/usr/bin/env bash
     set -euxo pipefail
-    sudo chown $USER1:$USER1 -R public/
-    cp LICENSE public/LICENSE
-    ssh ${USER2}@${IP_ADDRESS} 'rm -rfv "${OUTPATH}/*"'
-    rsync --rsh="ssh -o StrictHostKeyChecking=no" -aP public/* "${USER2}@${IP_ADDRESS}:${OUTPATH}" > /dev/null
+    cp .domains public/.domains
+    cp LICENSE public/LICENCE
+    pushd public/
+    git init
+    git remote add origin "https://${PAGES_ACCESS_TOKEN}@codeberg.org/${CI_REPO}.git"
+    git add -A
+    git commit -m "update site page for ${CI_COMMIT_SHA:-}"
+    git push --force -u origin main
 
-publish: update-theme webring build
+local-publish: update-theme build
     #!/usr/bin/env bash
     set -euxo pipefail
+    export CI_COMMIT_SHA="$(git rev-parse HEAD)"
+    cp .domains public/.domains
     cp LICENSE public/LICENSE
-    ssh ${USER2}@${IP_ADDRESS} 'rm -rfv "${OUTPATH}/*"' > /dev/null
-    rsync --rsh="ssh -o StrictHostKeyChecking=no" -aP public/* "${USER2}@${IP_ADDRESS}:${OUTPATH}" > /dev/null
+    pushd public/
+    git init
+    git switch -c pages
+    git remote add origin "git@codeberg.org:uncomfyhalomacro/pages.git"
+    git add -A
+    git commit -m "update site page for ${CI_COMMIT_SHA:-}"
+    git push --force -u origin pages
 
+do-all: update-theme publish
+
+do-all-local: update-theme local-publish
