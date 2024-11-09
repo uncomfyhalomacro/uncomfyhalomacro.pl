@@ -38,6 +38,7 @@ jobs:
         touch .nojekyll
         echo "uncomfyhalomacro.pl" >> CNAME
         git init
+        git branch -m main
         git config --global user.email "contact@uncomfyhalomacro.pl"
         git config --global user.name  "uncomfyhalomacro-pages"
         git remote add origin "https://uncomfyhalomacro:$TOKEN@github.com/uncomfyhalomacro/uncomfyhalomacro.github.io.git"
