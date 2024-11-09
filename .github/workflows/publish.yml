@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     container: opensuse/tumbleweed:latest
     env:
-      TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TOKEN: ${{ secrets.TOKEN }}
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -38,12 +38,12 @@ jobs:
         touch .nojekyll
         echo "uncomfyhalomacro.pl" >> CNAME
         git init
-        git branch -m main
+        git branch -m gh-pages
         git config --global user.email "contact@uncomfyhalomacro.pl"
         git config --global user.name  "uncomfyhalomacro-pages"
-        git remote add origin "https://uncomfyhalomacro:$TOKEN@github.com/uncomfyhalomacro/uncomfyhalomacro.github.io.git"
+        git remote add origin "https://uncomfyhalomacro:$TOKEN@github.com/uncomfyhalomacro/uncomfyhalomacro.pl.git"
         git add -A
         git commit -m "update site page for ${CI_COMMIT_SHA}"
-        git push --force -u origin main
+        git push --force -u origin gh-pages
 
 
