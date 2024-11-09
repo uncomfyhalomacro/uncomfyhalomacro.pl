@@ -1,5 +1,5 @@
 name: Publish
-
+permissions: write-all
 on: push
 
 jobs:
@@ -39,8 +39,8 @@ jobs:
         echo "uncomfyhalomacro.pl" >> CNAME
         git init
         git branch -m gh-pages
-        git config --global user.email "contact@uncomfyhalomacro.pl"
-        git config --global user.name  "uncomfyhalomacro-pages"
+        git config --global user.email "uncomfyhalomacro@noreply.github.com"
+        git config --global user.name "uncomfyhalomacro"
         git remote add origin "https://uncomfyhalomacro:$TOKEN@github.com/uncomfyhalomacro/uncomfyhalomacro.pl.git"
         git add -A
         git commit -m "update site page for ${CI_COMMIT_SHA}"
