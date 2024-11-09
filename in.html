@@ -8,7 +8,7 @@
             </h4>
             <p class="summary" dir="auto">{{ article.summary | linebreaksbr | replace(from="<br>", to=" ") | striptags | trim | truncate(length=256) }}</p>
             <small class="source"> via <a href="{{ article.source_link }}">{{ article.source_title }}</a></small>
-            <small class="date">{{ article.date | date(format="%B %d, %Y")}}</small>
+            <small class="date">{{ article.timestamp | date(format="%B %d, %Y")}}</small>
         </div>
         {% endfor %}
     </section>
