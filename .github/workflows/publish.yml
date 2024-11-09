@@ -33,8 +33,10 @@ jobs:
         export CI_COMMIT_SHA="$(git rev-parse HEAD)"
         cp LICENSE public/LICENCE
         pushd public
+        touch .nojekyll
+        echo "uncomfyhalomacro.pl" >> CNAME
         git init
-        git remote add origin "https://${TOKEN}@github.com/uncomfyhalomacro.pl.git"
+        git remote add origin "https://${TOKEN}@github.com/uncomfyhalomacro.github.io.git"
         git add -A
         git commit -m "update site page for ${CI_COMMIT_SHA}"
         git push --force -u origin gh-pages
