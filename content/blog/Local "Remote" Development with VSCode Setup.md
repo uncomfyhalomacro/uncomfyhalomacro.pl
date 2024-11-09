@@ -3,7 +3,6 @@ title = "Local Remote Development with VSCode"
 authors = ["Soc Virnyl Estela"]
 description = "a small short guide on how to setup VSCodium Flatpak on an immutable desktop"
 date = 2024-09-12
-updated = 2023-07-15
 draft = false
 [taxonomies]
   tags = ["editors"]
