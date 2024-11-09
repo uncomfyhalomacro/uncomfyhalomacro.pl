@@ -24,11 +24,11 @@ jobs:
         just webring
     - name: Generate static site
       run: |
+        git submodule update --init --recursive
+        git submodule foreach git pull
         just build
     - name: Publish static site
       run: |
-        git submodule update --init --recursive
-        git submodule foreach git pull
         export CI_COMMIT_SHA="$(git rev-parse HEAD)"
         cp LICENSE public/LICENCE
         pushd public
