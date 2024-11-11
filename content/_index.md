@@ -6,62 +6,73 @@ insert_anchor_links = "right"
 template = "index.html"
 +++
 
-# About me
+# ⏫ Soc Virnyl S. Estela
 
-I'm Soc Virnyl Estela (aka ***uncomfyhalomacro***). I like to discuss about
-Linux, Wayland, and various programming languages such as Julia, and Rust.
+I have a passion for technology and biology, hoping to build a career in
+software engineering in various fields.
 
-I'm a package maintainer for the [openSUSE](https://get.opensuse.org)
-community, mostly Wayland and Rust software.
+I am a proud member of the openSUSE community, where I maintain 22+ packages
+that include tools for my organization. I have been involved in open source
+software development since 2020, starting with Debian as my first Linux
+distribution. I believe in the spirit of open source and its potential to
+advance scientific discovery and innovation.
 
-My main background is biology but I also have exposure to computer science
-when I was in high school.
+I also post blogs, rants and notes sometimes on [my website](https://uncomfyhalomacro.pl).
 
-I'm a self-taught programmer. These are topics that interest me in terms
-of recency:
-
-- databases
-- DevOps
-- compilers
-- functional programming
-- containers
-
-Most of my projects are now hosted either
-on [Sourcehut](https://sr.ht/~uncomfy) and
-[Codeberg](https://codeberg.org/uncomfyhalomacro).
-
-The source of this website is available [at
-codeberg.org](https://codeberg.org/uncomfyhalomacro/pages).
-
-# Other stuff
-
-If you want to know what I use and what I want to learn, read further down below.
-
-## Software and tools I use daily
-
-- [Kakoune](https://github.com/mawww/kakoune)
-- [Zellij](https://zellij.dev)
-- [Foot](https://codeberg.org/dnkl/foot)
-- [RiverWM](https://github.com/riverwm/river)
-- Distrobox. A podman/docker frontend.
- 
-## Programming Languages I am really familiar with
-
-- [Julia](https://julialang.org)
-- [Rust](https://rust-lang.org)
-- Python
-
-## Software and things I want to familiarize with
-
-- **Erlang**. I heard about it because of its impressive built-in concurrency support.
-- **Go**. Learn it since it's used from various companies.
-- **Ansible**. Notable for DevOps.
-
-# Contact
-
-Feel free to email me at [contact@uncomfyhalomacro.pl](mailto:contact@uncomfyhalomacro.pl)([gpg](/public.txt)).
+You can connect with me through the following:
+- 📧 Email - <uncomfyhalomacro@opensuse.org>
+- 🪧 Discord — uncomfyhalomacro
 
 You can also contact me through Signal through this [link](https://signal.me/#eu/2HXmicUGauVas7bp_wTU2Qwg08Ldza_K4uOt3emtYnAs3Av6kCpA-6WD9CytRr7N).
+
+I am member of various communities:
+- 📦 [WayCrate](https://waycrate.github.io/) ***pseudo**-admin*
+- 🫂 [Humans of Julia](https://discord.gg/C5h9D4j) *retired admin*
+- 🦎 [openSUSE](https://discord.gg/opensuse) *active contributor and packager/package maintainer*
+
+Other forges I use:
+- [Sourcehut](https://sr.ht/~uncomfy)
+- [Codeberg](https://codeberg.org/uncomfyhalomacro).
+
+The source of this website is available [at
+github](https://github.com/uncomfyhalomacro/uncomfyhalomacro.github.io).
+
+# 🧰 Technologies
+
+## 💻 Languages
+
+- ⚙️ Rust
+- 🟣 Julia
+- 🐍 Python
+- 👍 Typescript and Javascript
+
+## 🌐 Web Frameworks and Tools
+
+- 🦖 ExpressJS
+- ⚛️ ReactJS
+- 🩹 ViteJS
+- ⏭️ NextJS
+- 🤤 Redux Toolkit
+
+## 🛠️  General Developer Tools
+
+- 🐧 Linux (openSUSE Tumbleweed)
+- 🐚 Zsh
+- 🐚 Bash
+- 🪟 Zellij
+- ✍️ Kakoune
+
+## Planning to Learn
+- 🩸 Elixir
+- 🌈 Gleam
+
+# 🤗 Open Source Experience
+
+- Rewritten the [OpenBuildService service cargo
+vendor](https://github.com/openSUSE/obs-service-cargo_vendor) in Rust.
+- Packaged 20+ software in [openSUSE Build
+Service](https://build.opensuse.org/users/uncomfyhalomacro).
+
 
 # Closing Remarks
 
